@@ -1,2 +1,2 @@
 # btsource
-My portfolio web site. Source code lives here.
+My portfolio web site source code. Style guide and docs coming soon...
