@@ -12,9 +12,9 @@ Planned launch dates:
 1. Refactor site wide CSS styles
 2. Complete splash image
 3. Deisgn, and implement 'Project' pages
- *- Design color theme
- *- Design logos
- *- Refine layout
+ * Design color theme
+ * Design logos
+ * Refine layout
 4. Re-design navigation bar
 5. Implement 'Donate' section
 6. Revise bio spelling/grammar
