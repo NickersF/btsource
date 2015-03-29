@@ -1,0 +1,7 @@
+// Btsource color chart
+
+Dark Blue: #2C3E50 , 75%: #616E7C , 50%: #959EA7 , 25%: #CACFD3
+Grapfruit: #E74C3C , 75%: #ED796D , 50%: #F3A59D , 25%: #F9D2CE
+Light Blue: #ECF0F1, 75%: #F1F4F5 , 50%: #F5F7F8 , 25%: #FAFBFB
+Sky Blue: #3498DB , 75%: #67B2E4 , 50%: #99CBED , 25%: #CCE5F6
+UI Blue: #2980B9 , 75%: #5FA0CB , 50%: #94BFDC , 25%: #C9DFED

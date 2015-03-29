@@ -1,0 +1,75 @@
+/* dark background*/
+.light a:link {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    color: dimgray;
+    text-decoration: none;
+}
+.light a:visited {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    color: dimgray;
+    text-decoration: none;
+}
+.light a:active {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    color: dimgray;
+    text-decoration: none;
+}
+.light a:hover {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    color: darkgrey;
+    text-decoration: underline;
+}
+/* medium blue background*/
+.medium a:link {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    color: #2C3E50;
+    text-decoration: none;
+}
+.medium a:visited {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    color: #2C3E50;
+    text-decoration: none;
+}
+.medium a:active {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    color: #2C3E50;
+    text-decoration: none;
+}
+.medium a:hover {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    color: #99CBED;
+    text-decoration: underline;
+}
+/* dark blue background*/
+.dark a:link {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    color: #67B2E4;
+    text-decoration: none;
+}
+.dark a:visited {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    color: #67B2E4;
+    text-decoration: none;
+}
+.dark a:active {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    color: #67B2E4;
+    text-decoration: none;
+}
+.dark a:hover {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    color: #CCE5F6;
+    text-decoration: underline;
+}
