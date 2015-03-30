@@ -1,21 +1,28 @@
 /* base type styles white/black*/
 h1 {
+    color: #212121;
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: 23px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 23px;
+    margin-top: 23px;
+    margin-bottom: 23px;
 }
 h3 {
+    color: #212121;
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: 18px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 600;
 	line-height: 23px;
+    margin-top: 18px;
+    margin-bottom: 18px;
 }
 p {
+    color: #212121;
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: 14px;
 	font-style: normal;
@@ -26,6 +33,7 @@ p {
     margin-bottom: inherit;
 }
 blockquote {
+    color: #212121;
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: 17px;
 	font-style: normal;
@@ -34,6 +42,7 @@ blockquote {
 	line-height: 23px;
 }
 pre {
+    color: #212121;
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: 16px;
 	font-style: normal;
@@ -113,7 +122,7 @@ blockquote.light {
 }
 /* icon styles*/
 .general-icons {
-    color: #000000;
+    color: #212121;
     font-size: 48px;
     text-align: center;
     height: 48px;

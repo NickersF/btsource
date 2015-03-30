@@ -77,16 +77,19 @@ footer {
 }
 .content-sizing {
     width: 600px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 .content-sizing-big {
     width: 800px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 .note-box {
     background-color: #2C3E50;
     width: 500px;
     margin: 0 auto;
+    padding: 8px;
 }
 /* navigation bar */
 .navbar {
@@ -99,9 +102,9 @@ footer {
     height: 37px;
     position: relative;
     background-color: #67B2E4;
-    border-bottom-width: 4px;
+/*    border-bottom-width: 4px;
     border-bottom-style: solid;
-    border-bottom-color: #2C3E50;
+    border-bottom-color: #2C3E50;*/
 }
 .item {
     width: 128px;
@@ -112,16 +115,16 @@ footer {
     font-size: 18px;
     font-weight: 600;
     text-align: center;
-    border-bottom-width: 4px;
+/*    border-bottom-width: 4px;
     border-bottom-style: solid;
-    border-bottom-color: #2C3E50; 
+    border-bottom-color: #2C3E50;*/ 
 }
 .item:hover {
     display: inline;
     background-color: #3498DB;
-    border-bottom-width: 4px;
+/*    border-bottom-width: 4px;
     border-bottom-style: solid;
-    border-bottom-color: #99CBED;
+    border-bottom-color: #99CBED;*/
 }
 a.navbar-main {
     color: #2C3E50;
