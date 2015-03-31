@@ -2,7 +2,7 @@
 
 My portfolio web site source code. Style guide and docs coming soon.
 Planned launch dates:
-* 01/4/2015 (main portfolio page)
+* 07/4/2015 (main portfolio page)
 * 01/4/2015 (style guide)
 * 09/4/2015 (main pjoects pages)
 
