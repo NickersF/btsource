@@ -31,4 +31,4 @@ The ugly muse boilerplate in place right now is going away soon. I update this g
 
 Feel free to contact me with feedback regarding the code/design of the site. I am also looking for work in front-end, and UI design, and general collaboration.
 
-[email me!] (nickersf@btsource.net)
+[email me!] (mailto:nickersf@btsource.net)
