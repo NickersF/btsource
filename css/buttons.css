@@ -1,0 +1,218 @@
+/* default buttons */
+.button-green {
+  color: darkgreen;
+  font-weight: 700;
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 8px;
+  width: 128px;
+  background-color: #4CAF50;
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #43A047;
+}
+.button-green:hover {
+  color: darkgreen;
+  font-weight: 700;
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 8px;
+  width: 128px;
+  background-color: #81C784;
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #43A047;
+}
+.button-red {
+  color: #B61B1B;
+  font-weight: 700;
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 8px;
+  width: 128px;
+  background-color: #F34235;
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #B61B1B;
+}
+.button-red:hover {
+  color: #B61B1B;
+  font-weight: 700;
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 8px;
+  width: 128px;
+  background-color: #EE9999;
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #B61B1B;
+}
+.button-blue {
+  color: #0C46A0;
+  font-weight: 700;
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 8px;
+  width: 128px;
+  background-color: #2095F2;
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #0C46A0;
+}
+.button-blue:hover {
+  color: #0C46A0;
+  font-weight: 700;
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 8px;
+  width: 128px;
+  background-color: #8FC9F8;
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #0C46A0;
+}
+.button-orange {
+  color: #E55000;
+  font-weight: 700;
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 8px;
+  width: 128px;
+  background-color: #FF9700;
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #E55000;
+}
+.button-orange:hover {
+  color: #E55000;
+  font-weight: 700;
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 8px;
+  width: 128px;
+  background-color: #FFCB7F;
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #E55000;
+}
+/* large default buttons */
+.button-green-lrg {
+  color: darkgreen;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 16px;
+  width: 128px;
+  background-color: #4CAF50;
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #43A047;
+}
+.button-green-lrg:hover {
+  color: darkgreen;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 16px;
+  width: 128px;
+  background-color: #81C784;
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #43A047;
+}
+.button-red-lrg {
+  color: #B61B1B;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 16px;
+  width: 128px;
+  background-color: #F34235;
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #B61B1B;
+}
+.button-red-lrg:hover {
+  color: #B61B1B;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 16px;
+  width: 128px;
+  background-color: #EE9999;
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #B61B1B;
+}
+.button-blue-lrg {
+  color: #0C46A0;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 16px;
+  width: 128px;
+  background-color: #2095F2;
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #0C46A0;
+}
+.button-blue-lrg:hover {
+  color: #0C46A0;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 16px;
+  width: 128px;
+  background-color: #8FC9F8;
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #0C46A0;
+}
+.button-orange-lrg {
+  color: #E55000;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 16px;
+  width: 128px;
+  background-color: #FF9700;
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #E55000;
+}
+.button-orange-lrg:hover {
+  color: #E55000;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 16px;
+  width: 128px;
+  background-color: #FFCB7F;
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #E55000;
+}
