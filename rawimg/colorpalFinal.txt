@@ -9,6 +9,9 @@
     Sky Blue: #3498DB , 75%: #67B2E4 , 50%: #99CBED , 25%: #CCE5F6
 
     UI Blue: #2980B9 , 75%: #5FA0CB , 50%: #94BFDC , 25%: #C9DFED
+    
+    
+    
 
 // Btsource projects ( programming )  color chart:
 
@@ -21,6 +24,9 @@
 // Btsource projects ( design ) color chart:
 
     Indigo: #3F51B5 , (900) #1A237E , (200) #1A237E
+    
+    
+    
 
 // Btsource style guide:
 
@@ -33,6 +39,10 @@
 // Blue Grey sitewide:
 
     Blue Grey: #607D8B , (900) #263238 , (200) #B0BEC5
+    
+    
+    
+    
     
 // Colors taken from google material design color palletes.
 
