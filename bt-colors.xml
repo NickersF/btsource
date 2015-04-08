@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitecolors>
+    
+    <maincolors>
+        <darkblue>
+            <darkblue100>#2C3E50</darkblue100>
+            <darkblue75>#616E7C</darkblue75>
+        </darkblue>
+
+        <lightblue>
+            <lightblue100>#3498DB</lightblue100>
+            <lightblue25>#CCE5F6</lightblue25>
+        </lightblue>
+    </maincolors>
+
+    <maintextcolors>
+        <darktext>#212121</darktext>
+        <lighttext>#CCE5F6</lighttext>
+        <greyblue900>#263238</greyblue900>
+        <greyblue200>#B0BEC5</greyblue200>
+    </maintextcolors>
+
+    <styleguide-brown>
+        <brown500>#795548</brown500>
+        <brown200>#D7CCC8</brown200>
+    </styleguide-brown>
+    
+    <projects-orange>
+        <deeporange500>#FF5722</deeporange500>
+        <deeporange200>#FFAB91</deeporange200>
+    </projects-orange>
+    
+    <modeling-green>
+        <green500>#4CAF50</green500>
+        <green200>#A5D6A7</green200>
+    </modeling-green>
+    
+    <design-indigo>
+        <indigo500>#3F51B5</indigo500>
+        <indigo200>#1A237E</indigo200>
+    </design-indigo>
+</sitecolors>
