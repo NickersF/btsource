@@ -1,24 +1,68 @@
-.header-logo {
+body {
+    margin: 0px;
 }
-.nav-wrapper {  
+header {
+    background: #212121;
+    height: 81px;
+}
+.header-logo {
+    background: #212121;
+    float: left;
+}
+.nav-wrapper { 
+    background: #212121;
+    float: right;
+    height: 81px;
 }
 .nav {
+    display: inline;
+    color: #FFFFFF;
+    height: 81px;
+    font-family: sans-serif;
+    font-size: 21px;
+    list-style: none;
+    line-height: 81px;
 }
 .nav-home {
     display: inline;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-bottom: 25px;
+    border-bottom-width: 4px;
+    border-bottom-color: #3498DB;
+    border-bottom-style: solid;
+}
+.nav-home:hover {
+    display: inline;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-bottom: 17px;
+    border-bottom-width: 12px;
+    border-bottom-color: #3498DB;
+    border-bottom-style: solid;
 }
 .nav-about {
     display: inline;
+    padding-right: 16px;
+    padding-left: 16px;
 }
 .nav-contact {
     display: inline;
+    padding-right: 16px;
+    padding-left: 16px;
 }
 .nav-donate {
     display: inline;
+    padding-right: 16px;
+    padding-left: 16px;
 }
 .nav-projects {
     display: inline;
+    padding-right: 16px;
+    padding-left: 16px;
 }
 .nav-blog {
     display: inline;
+    padding-right: 16px;
+    padding-left: 16px;
 }

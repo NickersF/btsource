@@ -43,12 +43,8 @@ table {
 	border-spacing: 0;
 }
 /* top level elements */
-body {
-    margin: 0; 
-    padding: 0;
-}
 header {
-    background-color: #2C3E50;
+    background-color: #212121;
 }
 nav {
     background-color: #ECF0F1;
