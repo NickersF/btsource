@@ -100,6 +100,16 @@ blockquote.light {
     font-kerning: normal;
     letter-spacing: 2px;
 }
+.section-heading-dark {
+    font-family: Georgia, Times, Times New Roman, serif;
+    font-size: 32px;
+    color: #2C3E50;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    font-kerning: normal;
+    letter-spacing: 2px;
+}
 .footer-heading {
     color: #616E7C;
 	font-family: Verdana, Geneva, sans-serif;
