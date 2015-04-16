@@ -13,6 +13,7 @@ header {
     background: #212121;
     float: right;
     height: 81px;
+    width: inherit;
 }
 .nav {
     display: inline;
@@ -30,7 +31,7 @@ header {
     padding-left: 16px;
     padding-bottom: 25px;
     border-bottom-width: 4px;
-    border-bottom-color: #3498DB;
+    border-bottom-color: #CCE5F6;
     border-bottom-style: solid;
     margin-right: -6px;
 }
@@ -40,7 +41,7 @@ header {
     padding-left: 16px;
     padding-bottom: 17px;
     border-bottom-width: 12px;
-    border-bottom-color: #3498DB;
+    border-bottom-color: #CCE5F6;
     border-bottom-style: solid;
 }
 .nav-about {
@@ -49,7 +50,7 @@ header {
     padding-left: 16px;
     padding-bottom: 25px;
     border-bottom-width: 4px;
-    border-bottom-color: #4CAF50;
+    border-bottom-color: #CCE5F6;
     border-bottom-style: solid;
     margin-right: -6px;
 }
@@ -59,7 +60,7 @@ header {
     padding-left: 16px;
     padding-bottom: 17px;
     border-bottom-width: 12px;
-    border-bottom-color: #4CAF50;
+    border-bottom-color: #CCE5F6;
     border-bottom-style: solid;
 }
 .nav-contact {
@@ -68,7 +69,7 @@ header {
     padding-left: 16px;
     padding-bottom: 25px;
     border-bottom-width: 4px;
-    border-bottom-color: #3F51B5;
+    border-bottom-color: #CCE5F6;
     border-bottom-style: solid;
     margin-right: -6px;
 }
@@ -78,7 +79,7 @@ header {
     padding-left: 16px;
     padding-bottom: 17px;
     border-bottom-width: 12px;
-    border-bottom-color: #3F51B5;
+    border-bottom-color: #CCE5F6;
     border-bottom-style: solid;
 }
 .nav-donate {
@@ -87,7 +88,7 @@ header {
     padding-left: 16px;
     padding-bottom: 25px;
     border-bottom-width: 4px;
-    border-bottom-color: #FF5722;
+    border-bottom-color: #CCE5F6;
     border-bottom-style: solid;
     margin-right: -6px;
 }
@@ -97,7 +98,7 @@ header {
     padding-left: 16px;
     padding-bottom: 17px;
     border-bottom-width: 12px;
-    border-bottom-color: #FF5722;
+    border-bottom-color: #CCE5F6;
     border-bottom-style: solid;
 }
 .nav-projects {
@@ -106,7 +107,7 @@ header {
     padding-left: 16px;
     padding-bottom: 25px;
     border-bottom-width: 4px;
-    border-bottom-color: #E74C3C;
+    border-bottom-color: #CCE5F6;
     border-bottom-style: solid;
     margin-right: -6px;
 }
@@ -116,7 +117,7 @@ header {
     padding-left: 16px;
     padding-bottom: 17px;
     border-bottom-width: 12px;
-    border-bottom-color: #E74C3C;
+    border-bottom-color: #CCE5F6;
     border-bottom-style: solid;
 }
 .nav-blog {
@@ -125,7 +126,7 @@ header {
     padding-left: 16px;
     padding-bottom: 25px;
     border-bottom-width: 4px;
-    border-bottom-color: #795548;
+    border-bottom-color: #CCE5F6;
     border-bottom-style: solid;
 }
 .nav-blog:hover {
@@ -134,7 +135,7 @@ header {
     padding-left: 16px;
     padding-bottom: 17px;
     border-bottom-width: 12px;
-    border-bottom-color: #795548;
+    border-bottom-color: #CCE5F6;
     border-bottom-style: solid;
 }
 .nav a:link {

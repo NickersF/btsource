@@ -44,10 +44,12 @@ table {
 }
 /* top level elements */
 header {
+/*
+    border-bottom-width: 4px;
+    border-bottom-color: #CCE5F6;
+    border-bottom-style: solid;
+*/
     background-color: #212121;
-}
-nav {
-    background-color: #ECF0F1;
 }
 .section-home {
     clear: both;
@@ -57,6 +59,7 @@ nav {
     clear: both;
 }
 .section-about {
+    background-color: #3498DB;
     clear: both;
     padding-bottom: 46px;
 }
