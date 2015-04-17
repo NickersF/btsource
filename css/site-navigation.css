@@ -4,6 +4,9 @@ body {
 header {
     background: #212121;
     height: 81px;
+    border-bottom-width: 8px;
+    border-bottom-style: solid;
+    border-bottom-color: #CCE5F6;
 }
 .header-logo {
     background: #212121;
@@ -30,17 +33,19 @@ header {
     padding-right: 16px;
     padding-left: 16px;
     padding-bottom: 25px;
+/*
     border-bottom-width: 4px;
     border-bottom-color: #CCE5F6;
     border-bottom-style: solid;
+*/
     margin-right: -6px;
 }
 .nav-home:hover {
     display: inline;
     padding-right: 16px;
     padding-left: 16px;
-    padding-bottom: 17px;
-    border-bottom-width: 12px;
+    padding-bottom: 21px;
+    border-bottom-width: 8px;
     border-bottom-color: #CCE5F6;
     border-bottom-style: solid;
 }
@@ -49,17 +54,19 @@ header {
     padding-right: 16px;
     padding-left: 16px;
     padding-bottom: 25px;
+/*
     border-bottom-width: 4px;
     border-bottom-color: #CCE5F6;
     border-bottom-style: solid;
+*/
     margin-right: -6px;
 }
 .nav-about:hover {
     display: inline;
     padding-right: 16px;
     padding-left: 16px;
-    padding-bottom: 17px;
-    border-bottom-width: 12px;
+    padding-bottom: 21px;
+    border-bottom-width: 8px;
     border-bottom-color: #CCE5F6;
     border-bottom-style: solid;
 }
@@ -68,17 +75,19 @@ header {
     padding-right: 16px;
     padding-left: 16px;
     padding-bottom: 25px;
+/*
     border-bottom-width: 4px;
     border-bottom-color: #CCE5F6;
     border-bottom-style: solid;
+*/
     margin-right: -6px;
 }
 .nav-contact:hover {
     display: inline;
     padding-right: 16px;
     padding-left: 16px;
-    padding-bottom: 17px;
-    border-bottom-width: 12px;
+    padding-bottom: 21px;
+    border-bottom-width: 8px;
     border-bottom-color: #CCE5F6;
     border-bottom-style: solid;
 }
@@ -87,17 +96,19 @@ header {
     padding-right: 16px;
     padding-left: 16px;
     padding-bottom: 25px;
+/*
     border-bottom-width: 4px;
     border-bottom-color: #CCE5F6;
     border-bottom-style: solid;
+*/
     margin-right: -6px;
 }
 .nav-donate:hover {
     display: inline;
     padding-right: 16px;
     padding-left: 16px;
-    padding-bottom: 17px;
-    border-bottom-width: 12px;
+    padding-bottom: 21px;
+    border-bottom-width: 8px;
     border-bottom-color: #CCE5F6;
     border-bottom-style: solid;
 }
@@ -106,17 +117,19 @@ header {
     padding-right: 16px;
     padding-left: 16px;
     padding-bottom: 25px;
+/*
     border-bottom-width: 4px;
     border-bottom-color: #CCE5F6;
     border-bottom-style: solid;
+*/
     margin-right: -6px;
 }
 .nav-projects:hover {
     display: inline;
     padding-right: 16px;
     padding-left: 16px;
-    padding-bottom: 17px;
-    border-bottom-width: 12px;
+    padding-bottom: 21px;
+    border-bottom-width: 8px;
     border-bottom-color: #CCE5F6;
     border-bottom-style: solid;
 }
@@ -125,16 +138,18 @@ header {
     padding-right: 16px;
     padding-left: 16px;
     padding-bottom: 25px;
+/*
     border-bottom-width: 4px;
     border-bottom-color: #CCE5F6;
     border-bottom-style: solid;
+*/
 }
 .nav-blog:hover {
     display: inline;
     padding-right: 16px;
     padding-left: 16px;
-    padding-bottom: 17px;
-    border-bottom-width: 12px;
+    padding-bottom: 21px;
+    border-bottom-width: 8px;
     border-bottom-color: #CCE5F6;
     border-bottom-style: solid;
 }
