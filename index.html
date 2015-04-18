@@ -12,64 +12,80 @@
     <link rel="stylesheet" type="text/css" href="css/site-navigation.css">
     <link rel="stylesheet" type="text/css" href="css/link-schemas.css">
     <link rel="stylesheet" type="text/css" href="scripts/styles/monokai.css">
+    <link rel="stylesheet" type="text/css" href="css/buttons.css">
 <!-- inline code highlighting js-lib -->
     <script src="scripts/highlight.pack.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
 </head> 
 <body>
 <!--    header  -->
-    <header class="header">
+    <header class="header" id="top">
         <div class="header-logo">
             <img src="img/bt-main-logo-wht.png"  width="422" height="77">
         </div>
         <div class="nav-wrapper">
             <ul class="nav">
-                <li class="nav-home"><a href="#">Home</a></li>
-                <li class="nav-about"><a href="#">About</a></li>
-                <li class="nav-contact"><a href="#">Contact</a></li>
-                <li class="nav-donate"><a href="#">Donate</a></li>
-                <li class="nav-projects"><a href="#">Projects</a></li>
-                <li class="nav-blog"><a href="#">Blog</a></li>
+                <li class="nav-home"><a href="#home">Home</a></li>
+                <li class="nav-contact"><a href="#contact">Contact</a></li>
+                <li class="nav-about"><a href="#about">About</a></li>
+                <li class="nav-donate"><a href="#donate">Donate</a></li>
+                <li class="nav-projects"><a href="https://www.behance.net/NickFazzolari" target="_blank">Projects</a></li>
+                <li class="nav-blog"><a href="https://nickersf.wordpress.com/" target="_blank">Blog</a></li>
             </ul>
         </div>
     </header>
-<!--    home section - needs art    -->
-    <section class="section-home cf">
+<!--    home section    -->
+    <section class="section-home cf" id="home">
         <div class="section-center"><span class="section-heading">The Portfolio of: Nicholas Fazzolari</span></div>
+        <div class="home-svg"></div>
     </section>
 <!--    contact section     -->
-    <section class="section-contact cf">
+    <section class="section-contact cf" id="contact">
         <div class="section-center-dark"><span class="section-heading">Networking &amp; Sharing</span></div>
         
             <div class="contact-cols">
-                <div class="contact-circle"><img src="img/icons-socialmed/96SocialMedia_git_w.png" onmouseover="this.src='img/icons-socialmed/96SocialMedia_git_b.png'" onmouseout="this.src='img/icons-socialmed/96SocialMedia_git_w.png'"></div>
+                <div class="contact-circle"><img src="img/icons-socialmed/96SocialMedia_git_w.png" onmouseover="this.src='img/icons-socialmed/96SocialMedia_git_b.png'" onmouseout="this.src='img/icons-socialmed/96SocialMedia_git_w.png'" onclick="window.open('https://github.com/NickersF')"></div>
             </div>
             <div class="contact-cols">
                 <div class="contact-circle">
-                <img src="img/icons-socialmed/96SocialMedia_in_w.png" onmouseover="this.src='img/icons-socialmed/96SocialMedia_in_b.png'" onmouseout="this.src='img/icons-socialmed/96SocialMedia_in_w.png'"></div>
+                <img src="img/icons-socialmed/96SocialMedia_in_w.png" onmouseover="this.src='img/icons-socialmed/96SocialMedia_in_b.png'" onmouseout="this.src='img/icons-socialmed/96SocialMedia_in_w.png'" onclick="window.open('http://www.linkedin.com/in/nickfazzolari')"></div>
             </div>
             <div class="contact-cols">
                 <div class="contact-circle">
-                <img src="img/icons-socialmed/96SocialMedia_twit_w.png" onmouseover="this.src='img/icons-socialmed/96SocialMedia_twit_b.png'" onmouseout="this.src='img/icons-socialmed/96SocialMedia_twit_w.png'"></div>
+                <img src="img/icons-socialmed/96SocialMedia_twit_w.png" onmouseover="this.src='img/icons-socialmed/96SocialMedia_twit_b.png'" onmouseout="this.src='img/icons-socialmed/96SocialMedia_twit_w.png'" onclick="window.open('http://www.twitter.com/NickersFpdx')"></div>
             </div>
             <div class="contact-cols">
                 <div class="contact-circle">
-                <img src="img/icons-socialmed/96SocialMedia_fb_w.png" onmouseover="this.src='img/icons-socialmed/96SocialMedia_fb_b.png'" onmouseout="this.src='img/icons-socialmed/96SocialMedia_fb_w.png'"></div>
+                <img src="img/icons-socialmed/96SocialMedia_fb_w.png" onmouseover="this.src='img/icons-socialmed/96SocialMedia_fb_b.png'" onmouseout="this.src='img/icons-socialmed/96SocialMedia_fb_w.png'" onclick="window.open('https://www.facebook.com/nicholas.fazzolari')"></div>
             </div>
     </section>
 <!--    about section -->
-    <section class="section-about cf">
+    <section class="section-about cf" id="about">
         <div class="section-center"><span class="section-heading">About Me</span></div>
-        <div class="content-sizing"><p class="light">
+        <div class="content-sizing"><h3><span class="light"><a href="#top" class="light">Top</a></span></h3><p class="dark">
 I am a Computer Science student studying at Portland Community College in Portland Oregon, earning a transfer degree in order to finish my Bachelors in CS at Portland State University. My educational and professional goals are to become a UI developer for both native apps and the web. My passion for technology reaches back to my early teens when I made maps (levels) for the popular shooter series ‘Quake’.<br><br> After high-school life took me in a fully creative direction as a touring musician. 
 During the last 8 years I have been actively touring in bands, and working for independent record labels as an inventory coordinator. The wild ride through the world I experienced as a musician helped me forge strong goal oriented and team based collaboration skills which I can apply directly to software development.<br><br> 
 My current goal is to get freelance web development work while attending college, where the final goal is for me to become a versatile and knowledgeable full stack developer. Ultimately, I am currently available and seeking work. I am always looking to meet new people, be they developers, potential clients or just to geek out on technology. Feel free to contact me through the various networks linked in the ‘Networking &amp; Sharing’ section of this site, or directly via e-mail. – Nicholas Fazzolari
 </p><img class="auto-sizing" src="img/avNick.jpg"></div>
     </section>
 <!--    donate section  -->
-    <section class="section-donate cf">
+    <section class="section-donate cf" id="donate">
         <div class="section-center"><span class="section-heading">Donate &amp; Funding</span></div>
-        <div class="content-sizing"><p class="light">Being a student is a costly adventure to say they least. My current goal is to work as a front-end developer while attending school. My inital apporach is to achieve this goal through freelancing.</p></div>
+        <div class="content-sizing"><h3><span class="light"><a href="#top" class="light">Top</a></span></h3><p class="dark">Being a student is a costly adventure to say the least. My current goal is to work as a front-end developer while attending school. My initial approach is to achieve this goal is through freelancing. However, I am lacking some key tools and assets to work effectively as a freelance web developer. I have started a go fund me campaign in the hopes of raising money to aid the purchase some key assets.</p>
+        </div>
+        <div class="content-sizing-center auto-sizing">
+            <ul class="main">
+                <li>Workstation Computer</li>
+                <li>Printer/Scanner</li>
+                <li>Digital Camera</li>
+                <li>Desk and Chair</li>
+                <li>Filing Cabinet</li>
+            </ul>
+        </div>
+    </section>
+    <section class="section-center-light">
+            <a class="button-green-lrg" href="http://www.gofundme.com/pqvzjw" target="_blank">Go Fund Me Campaign</a>
+            <a class="button-green-lrg" href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=F2LPC2C264HFC&lc=US&item_name=Bridgetown%20Source&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted" target="_blank">Donate Via PayPal</a>
     </section>
 <!--    page footer start   -->
     <footer class="footer">

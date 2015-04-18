@@ -154,18 +154,18 @@ header {
     border-bottom-style: solid;
 }
 .nav a:link {
-    color: #FFFFFF;
+    color: #CCE5F6;
     text-decoration: none;
 }
 .nav a:hover {
-    color: #9E9E9E;
+    color: #3498DB;
     text-decoration: none;
 }
 .nav a:active {
-    color: #FFFFFF;
+    color: #CCE5F6;
     text-decoration: none;
 }
 .nav a:visited {
-    color: #FFFFFF;
+    color: #CCE5F6;
     text-decoration: none;
 }

@@ -5,7 +5,7 @@ h1 {
 	font-size: 23px;
 	font-style: normal;
 	font-variant: normal;
-	font-weight: 500;
+	font-weight: 600;
 	line-height: 23px;
     margin-top: 23px;
     margin-bottom: 23px;
@@ -24,7 +24,7 @@ h3 {
 p {
     color: #212121;
 	font-family: Verdana, Geneva, sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 400;
@@ -50,6 +50,16 @@ pre {
 	font-weight: 400;
 	line-height: 23px;
 }
+ul.main {
+    color: #212121;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 24px;
+    list-style: inside;
+    list-style-type: disc;
+}
+li {
+    padding-bottom: 23px;
+}
 /* light defult type styles*/
 h1.light {
     color: #CCE5F6;
@@ -72,7 +82,7 @@ h3.light {
 p.light {
     color: #CCE5F6;
 	font-family: Verdana, Geneva, sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 400;
@@ -88,6 +98,16 @@ blockquote.light {
 	font-variant: normal;
 	font-weight: 400;
 	line-height: 23px;
+}
+ul.light {
+    color: #CCE5F6;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 24px;
+    list-style: inside;
+    list-style-type: disc;
+}
+li.light {
+    padding-bottom: 23px;
 }
 /* child typographical elements */
 .section-heading {

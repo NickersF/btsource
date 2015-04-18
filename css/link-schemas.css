@@ -1,26 +1,22 @@
 /* dark background*/
 .light a:link {
     font-family: Verdana, Geneva, sans-serif;
-    font-size: 14px;
     color: dimgray;
     text-decoration: none;
 }
 .light a:visited {
     font-family: Verdana, Geneva, sans-serif;
-    font-size: 14px;
     color: dimgray;
     text-decoration: none;
 }
 .light a:active {
     font-family: Verdana, Geneva, sans-serif;
-    font-size: 14px;
     color: dimgray;
     text-decoration: none;
 }
 .light a:hover {
     font-family: Verdana, Geneva, sans-serif;
-    font-size: 14px;
-    color: darkgrey;
+    color: #212121;
     text-decoration: underline;
 }
 /* medium blue background*/
@@ -32,7 +28,6 @@
 }
 .medium a:visited {
     font-family: Verdana, Geneva, sans-serif;
-    font-size: 14px;
     color: #2C3E50;
     text-decoration: none;
 }
