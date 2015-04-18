@@ -14,9 +14,8 @@ header {
 }
 .nav-wrapper { 
     background: #212121;
-    float: right;
     height: 81px;
-    width: inherit;
+    overflow: hidden;
 }
 .nav {
     display: inline;
