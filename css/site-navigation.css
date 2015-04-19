@@ -32,11 +32,6 @@ header {
     padding-right: 16px;
     padding-left: 16px;
     padding-bottom: 25px;
-/*
-    border-bottom-width: 4px;
-    border-bottom-color: #CCE5F6;
-    border-bottom-style: solid;
-*/
     margin-right: -6px;
 }
 .nav-home:hover {
@@ -53,11 +48,6 @@ header {
     padding-right: 16px;
     padding-left: 16px;
     padding-bottom: 25px;
-/*
-    border-bottom-width: 4px;
-    border-bottom-color: #CCE5F6;
-    border-bottom-style: solid;
-*/
     margin-right: -6px;
 }
 .nav-about:hover {
@@ -74,11 +64,6 @@ header {
     padding-right: 16px;
     padding-left: 16px;
     padding-bottom: 25px;
-/*
-    border-bottom-width: 4px;
-    border-bottom-color: #CCE5F6;
-    border-bottom-style: solid;
-*/
     margin-right: -6px;
 }
 .nav-contact:hover {
@@ -95,11 +80,6 @@ header {
     padding-right: 16px;
     padding-left: 16px;
     padding-bottom: 25px;
-/*
-    border-bottom-width: 4px;
-    border-bottom-color: #CCE5F6;
-    border-bottom-style: solid;
-*/
     margin-right: -6px;
 }
 .nav-donate:hover {
@@ -116,11 +96,6 @@ header {
     padding-right: 16px;
     padding-left: 16px;
     padding-bottom: 25px;
-/*
-    border-bottom-width: 4px;
-    border-bottom-color: #CCE5F6;
-    border-bottom-style: solid;
-*/
     margin-right: -6px;
 }
 .nav-projects:hover {
@@ -137,11 +112,6 @@ header {
     padding-right: 16px;
     padding-left: 16px;
     padding-bottom: 25px;
-/*
-    border-bottom-width: 4px;
-    border-bottom-color: #CCE5F6;
-    border-bottom-style: solid;
-*/
 }
 .nav-blog:hover {
     display: inline;
