@@ -19,14 +19,53 @@
 </head>
 <body>
 <!--    page header     -->
-    <header class="header-sg">
-        <img  height="37px" width="203"src="img/bt-proj-logo-blk.png" alt="Brdigetown Source style guide" />
+    <header class="header">
+        <img  height="37px" width="203"src="img/bt-proj-logo-wht.png" alt="Brdigetown Source style guide" />
     </header>
 <!--    page sections begin     -->
-    <section>
-        <h1 class="section-center-light">Bridgetown Source Style Guide</h1>
+    <section class="section-home cf">
+        <div class="section-center"><span class="section-heading">Bridgetown Source Style Guide</span></div>
+        <div class="content-sizing">
+            <h1>Typographic Components:</h1>
+            <p class="dark">btsource.net is a small web site therefore I made a point to keep the typographical element count to a minimum. There are five core text elements used on the site. Two headers (h1, h3), paragraph formatting, blockqoute and a code hilighting element.<br> Furthermore, each core typographical element has a contrasting selector which renders a lighter font color for dark backgrounds which I wrote as .light child selector of the main element.</p>
+            <h1>Standard Heading 1</h1>
+            <h3>Standard Heading 3</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet lorem enim, non consequat nulla fermentum eget. In finibus luctus lacinia. Nam molestie urna ex, non auctor eros ullamcorper eget. Sed laoreet nisi vitae purus aliquet mollis. Etiam ac diam vel felis tristique tincidunt vitae blandit nulla. Donec faucibus diam ac dui condimentum consectetur id id ante. Integer bibendum enim lacus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut sed pulvinar augue</p>
+            <blockquote>"A blockquote at btsource.net!"</blockquote>
+            <h1>Unorder list:</h1>
+            <ul class="main">
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+            <pre><code class="hljs css">p.light {}; h1.light {}; h2.light {}; blockquote.light {}; ul.light {}</code></pre>
+        </div>
+    </section>
+<!--    page and layout section     -->
+    <section class="section-home cf">
+        <div class="section-center"><span class="section-heading">Layout &amp; Grid</span></div>
+        <div class="content-sizing">
+            <h1>Main Grid &amp; Vertical Symmetry:</h1>
+            <p>The btource.net grid is simple and focused on vertical symmetry. Pages start with a HTML5 header element which contain any navigation elements. Moving down the page section elements divide the page into main parts finally ending in a footer.</p>
+        </div>
     </section>
 <!--    footer begin    -->
-    <footer>Footer</footer>
+    <footer>
+        <div class="footer-cont">
+            <div class="footer-cols">
+                <div class="footer-icons"><span class="icon-info"></span></div>
+                <p class="footer-heading">Site Information</p>
+                <p class="footer-content footer-text"><b>Libaries used:</b> Highlights.js<br><b>Lang stack:</b> HTML5, CSS3, JS: V8 4.1.0.21<br><b>Backend:</b> MySQL, PHP: 5.5.19 <b>Local:</b> XAMPP Win 8.1, <b>Server:</b> Linux<br>Style Guide</p>
+            </div>
+            <div class="footer-cols">
+                <div class="footer-icons"><span class="icon-mail"></span></div>
+                <p class="footer-heading">Contact Information</p>
+                <p class="footer-content footer-text"><b>Tel:</b> 503-957-9399<br><b>E-mail:</b> nickersf@btsource.net<br><b>Address:</b> PO Box 1021 Portland, Oregon, 97266<br>Always looking for work.</p>
+            </div>
+        </div>
+        <div class="content-sizing-big">
+            <span class="footer-text">Copyright 2015 - Nicholas Fazzolari, All Rights Reserved. Hand Crafted with love, brackets, and caffeine.</span>
+        </div>
+    </footer>
 </body>
 </html>
