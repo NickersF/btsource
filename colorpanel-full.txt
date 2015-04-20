@@ -1,0 +1,49 @@
+// Btsource Portfolio
+
+    Dark Blue: #2C3E50 , 75%: #616E7C , 50%: #959EA7 , 25%: #CACFD3
+
+    Grapfruit: #E74C3C , 75%: #ED796D , 50%: #F3A59D , 25%: #F9D2CE
+
+    Light Blue: #ECF0F1, 75%: #F1F4F5 , 50%: #F5F7F8 , 25%: #FAFBFB
+
+    Sky Blue: #3498DB , 75%: #67B2E4 , 50%: #99CBED , 25%: #CCE5F6
+
+    UI Blue: #2980B9 , 75%: #5FA0CB , 50%: #94BFDC , 25%: #C9DFED
+    
+    
+    
+
+// Btsource projects ( programming )  color chart:
+
+    Deep Orange: #FF5722 , (900) #BF360C , (200) #FFAB91
+
+// Btsource projects ( 3d modeling ) color chart:
+
+    Green: #4CAF50 , (900) #1B5E20 , (200) #A5D6A7
+
+// Btsource projects ( design ) color chart:
+
+    Indigo: #3F51B5 , (900) #1A237E , (200) #1A237E
+    
+    
+    
+
+// Btsource style guide:
+
+    Brown: #795548 , (900) #3E2723 , (200) #BCAAA4
+    
+// Grey Scale general:
+    
+    Grey: #9E9E9E , (900) #212121 , (200) #EEEEEE
+    
+// Blue Grey sitewide:
+
+    Blue Grey: #607D8B , (900) #263238 , (200) #B0BEC5
+    
+    
+    
+    
+    
+// Colors taken from google material design color palletes.
+
+    http://www.google.com/design/spec/style/color.html#color-color-palette
