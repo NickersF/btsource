@@ -21,17 +21,36 @@
 <!--    page header     -->
     <header class="header">
         <img  height="37px" width="203"src="img/bt-proj-logo-wht.png" alt="Brdigetown Source style guide" />
+        <div class="nav-wrapper">
+            <ul class="nav">
+                <li>Test</li>
+            </ul>
+        </div>
     </header>
-<!--    page sections begin     -->
-    <section class="section-light cf">
+<!--    welcome     -->
         <div class="section-center-dark"><span class="section-heading">Bridgetown Source Style Guide</span></div>
-        <div class="section-center"><span class="section-heading">Typographic Elements:</span></div>
+    <section class="section-light cf">
+        <div class="section-center"><span class="section-heading">Logos &amp; Colors</span></div>
         <div class="content-sizing">
-            <p class="dark">btsource.net is a small web site therefore I made a point to keep the typographical element count to a minimum. There are five core text elements used on the site. Two headers (h1, h3), paragraph formatting, blockqoute and a code hilighting element.<br> Furthermore, each core typographical element has a contrasting selector which renders a lighter font color for dark backgrounds which are applied using the <span class="code">.light</span> child selector of the main element.</p>
-            <h1>Standard Heading 1</h1>
+            <p>There are various forms of the logo. The main three color logo with the company name. A simple title only logo using shades only, and the graphical logo only. The goal is to use all three of these in different combinations when promoting or representing bt source.</p>
+        </div>
+        <img  class="auto-sizing" alt="bridgetown source logo collection" src="img/bt-logo-collection.png">
+        <div class="content-sizing">
+            <h3>Site Colors:</h3>
+            <p>The color pallete for the site is derived from the logo set. Below is a full spectrum of the color palette of btsource.net.</p>
+        </div>
+    </section>
+<!--    typography -->
+    <section class="section-light cf">
+        <div class="section-center"><span class="section-heading">Typographic Elements</span></div>
+        <div class="content-sizing">
+            <p>btsource.net is a small web site therefore I made a point to keep the typographical element count to a minimum. There are five core text elements used on the site. Four headers <span class="code">.section-heading</span> <span class="code">.section-heading-dark</span> <span class="code">.h1</span> <span class="code">.h3</span>, paragraph formatting, blockqoute and a code hilighting element. Font-sizes range from <span class="code">.p == 16px</span> to <span class="code">.section-heading == 32px;</span> Furthermore, each core typographical element has a contrasting selector which renders a lighter font color for dark backgrounds which are applied using the <span class="code">.light</span> child selector of the main element.</p>
+            <span class="section-heading-dark">Dark Section Heading</span>
+            <br><br><br>
+            <h1>Standard Heading 1 </h1>
             <br><br><br>
             <h3>Standard Heading 3</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet lorem enim, non consequat nulla fermentum eget. In finibus luctus lacinia. Nam molestie urna ex, non auctor eros ullamcorper eget. Sed laoreet nisi vitae purus aliquet mollis. Etiam ac diam vel felis tristique tincidunt vitae blandit nulla. Donec faucibus diam ac dui condimentum consectetur id id ante. Integer bibendum enim lacus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut sed pulvinar augue</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet lorem enim, non consequat nulla fermentum eget. In finibus luctus lacinia. Nam molestie urna ex, non auctor eros ullamcorper eget. Sed laoreet nisi vitae purus aliquet mollis. Etiam ac diam vel felis tristique tincidunt vitae blandit nulla. Donec faucibus diam ac dui condimentum consectetur id id ante. Integer bibendum enim lacus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut sed pulvinar augue.</p>
             <blockquote>"A blockquote at btsource.net!"</blockquote>
             <br><br><br>
             <h3>Unorder list:</h3>
@@ -61,12 +80,83 @@ int main(int argc, char *argv[]) {
 }</code></pre>
         </div>
     </section>
+    <section class="section-dark cf">
+        <div class="section-center"><span class="section-heading">Inverse Typographic Elements</span></div>
+        <div class="content-sizing">
+            <span class="section-heading">Light Section Heading</span>
+            <br><br><br>
+            <h1 class="light">Light Header 1</h1>
+            <br><br><br>
+            <h3 class="light">Light Header 3</h3>
+            <p class="light">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet lorem enim, non consequat nulla fermentum eget. In finibus luctus lacinia. Nam molestie urna ex, non auctor eros ullamcorper eget. Sed laoreet nisi vitae purus aliquet mollis. Etiam ac diam vel felis tristique tincidunt vitae blandit nulla. Donec faucibus diam ac dui condimentum consectetur id id ante. Integer bibendum enim lacus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut sed pulvinar augue.
+            </p>
+            <blockquote class="light">"A blockquote at btsource.net!"</blockquote>
+            <br><br><br>
+            <ul class="light">
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+            <br><br>
+            <h3 class="light">Syntax Highlighting:</h3>
+            <p class="light">Since btsource.net is all about programming and computer science syntax highlighting is a key feature. I have chosen to use the <span class="light"><a href="http://www.highlightsjs.org/" target="_blank" class="light">highlights.js</a></span> javascript library for handling syntax on the site.</p>
+            <pre><code class="hljs cpp">#include <iostream>
+#define IABS(x) ((x) < 0 ? -(x) : (x))
+
+int main(int argc, char *argv[]) {
+
+  /* An annoying "Hello World" example */
+  for (auto i = 0; i < 0xFFFF; i++)
+    cout << "Hello, World!" << endl;
+
+  char c = '\n';
+  unordered_map <string, vector<string> > m;
+  m["key"] = "\\\\"; // this is an error
+
+  return -2e3 + 12l;
+}
+                </code></pre>
+        </div>
+    </section>
 <!--    page and layout section     -->
     <section class="section-light cf">
         <div class="section-center"><span class="section-heading">Layout &amp; Grid</span></div>
         <div class="content-sizing">
-            <h1>Main Grid &amp; Vertical Symmetry:</h1>
-            <p>The btource.net grid is simple and focused on vertical symmetry. Pages start with a HTML5 header element which contain any navigation elements. Moving down the page section elements divide the page into main parts finally ending in a footer.</p>
+            <p>The btource.net grid is simple and focused on vertical symmetry. Pages start with a HTML5 header element which can contain any navigation elements. Moving down the page section elements divide the page into discrete categories. There are two base section styles: Light blue background, and finally a Dark Blue background. for each <span class="code">.section-light</span> or <span class="code">.section-dark</span> there are corresponding selectors which serve as headings for each section:</p>
+            <h3>Section specific selectors:</h3>
+            <br><br><br>
+            <pre><code class="hljs css">.section-light { background-color: #CCE5F6;
+    clear: both;}
+.section-dark { background-color: #2C3E50;
+    clear: both;</code></pre>
+            <br><br><br>
+            <h3>Section heading selectors:</h3>
+            <p>There are three section headers, light, skyblue, and darkblue. The light blue heading selector has minimal use, and might get removed in the future. The following selectors format the text alignment and dimensions. The typographic element <span class="code">.section-heading</span> handles the properties of the actual font face. Vertical flow between text elements is handled by the margin settings set by the typograhpic elements. Sitewide vertical spacing between core elements is <span class="code">46px;</span></p>
+            <pre><code class="hljs css">.section-center {
+    background-color: #3498DB;
+    width: 100%;
+    height: 128px;
+    line-height: 128px;
+    margin: auto;
+    text-align: center;
+}
+.section-center-dark {
+    background-color: #2C3E50;
+    width: 100%;
+    height: 128px;
+    line-height: 128px;
+    margin: auto;
+    text-align: center;
+}
+.section-center-light {
+    background-color: #CCE5F6;
+    width: 100%;
+    height: 128px;
+    line-height: 128px;
+    margin: auto;
+    text-align: center;
+}</code></pre>
         </div>
     </section>
 <!--    footer begin    -->
