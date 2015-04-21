@@ -23,26 +23,46 @@
         <img  height="37px" width="203"src="img/bt-proj-logo-wht.png" alt="Brdigetown Source style guide" />
     </header>
 <!--    page sections begin     -->
-    <section class="section-home cf">
-        <div class="section-center"><span class="section-heading">Bridgetown Source Style Guide</span></div>
+    <section class="section-light cf">
+        <div class="section-center-dark"><span class="section-heading">Bridgetown Source Style Guide</span></div>
+        <div class="section-center"><span class="section-heading">Typographic Elements:</span></div>
         <div class="content-sizing">
-            <h1>Typographic Components:</h1>
-            <p class="dark">btsource.net is a small web site therefore I made a point to keep the typographical element count to a minimum. There are five core text elements used on the site. Two headers (h1, h3), paragraph formatting, blockqoute and a code hilighting element.<br> Furthermore, each core typographical element has a contrasting selector which renders a lighter font color for dark backgrounds which I wrote as .light child selector of the main element.</p>
+            <p class="dark">btsource.net is a small web site therefore I made a point to keep the typographical element count to a minimum. There are five core text elements used on the site. Two headers (h1, h3), paragraph formatting, blockqoute and a code hilighting element.<br> Furthermore, each core typographical element has a contrasting selector which renders a lighter font color for dark backgrounds which are applied using the <span class="code">.light</span> child selector of the main element.</p>
             <h1>Standard Heading 1</h1>
+            <br><br><br>
             <h3>Standard Heading 3</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet lorem enim, non consequat nulla fermentum eget. In finibus luctus lacinia. Nam molestie urna ex, non auctor eros ullamcorper eget. Sed laoreet nisi vitae purus aliquet mollis. Etiam ac diam vel felis tristique tincidunt vitae blandit nulla. Donec faucibus diam ac dui condimentum consectetur id id ante. Integer bibendum enim lacus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut sed pulvinar augue</p>
             <blockquote>"A blockquote at btsource.net!"</blockquote>
-            <h1>Unorder list:</h1>
+            <br><br><br>
+            <h3>Unorder list:</h3>
+            <br><br><br>
             <ul class="main">
                 <li>Item 1</li>
                 <li>Item 2</li>
                 <li>Item 3</li>
             </ul>
-            <pre><code class="hljs css">p.light {}; h1.light {}; h2.light {}; blockquote.light {}; ul.light {}</code></pre>
+            <br><br>
+            <h3>Syntax Highlighting:</h3>
+            <p class="dark">Since btsource.net is all about programming and computer science syntax highlighting is a key feature. I have chosen to use the <span class="light"><a href="http://www.highlightsjs.org/" target="_blank" class="light">highlights.js</a></span> javascript library for handling syntax on the site.</p>
+            <pre><code class="hljs cpp">#include <iostream>
+#define IABS(x) ((x) < 0 ? -(x) : (x))
+
+int main(int argc, char *argv[]) {
+
+  /* An annoying "Hello World" example */
+  for (auto i = 0; i < 0xFFFF; i++)
+    cout << "Hello, World!" << endl;
+
+  char c = '\n';
+  unordered_map <string, vector<string> > m;
+  m["key"] = "\\\\"; // this is an error
+
+  return -2e3 + 12l;
+}</code></pre>
         </div>
     </section>
 <!--    page and layout section     -->
-    <section class="section-home cf">
+    <section class="section-light cf">
         <div class="section-center"><span class="section-heading">Layout &amp; Grid</span></div>
         <div class="content-sizing">
             <h1>Main Grid &amp; Vertical Symmetry:</h1>
@@ -50,8 +70,8 @@
         </div>
     </section>
 <!--    footer begin    -->
-    <footer>
-        <div class="footer-cont">
+<footer class="footer cf">
+        <div class="footer-center">
             <div class="footer-cols">
                 <div class="footer-icons"><span class="icon-info"></span></div>
                 <p class="footer-heading">Site Information</p>

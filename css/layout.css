@@ -46,20 +46,12 @@ table {
 header {
     background-color: #212121;
 }
-.section-home {
+.section-light {
     background-color: #CCE5F6;
     clear: both;
 }
-.section-contact {
+.section-dark {
     background-color: #2C3E50;
-    clear: both;
-}
-.section-about {
-    background-color: #CCE5F6;
-    clear: both;
-}
-.section-donate {
-    background-color: #CCE5F6;
     clear: both;
 }
 footer {
@@ -113,7 +105,7 @@ footer {
     text-align: center;
     margin: auto;
 }
-.footer-cont {
+.footer-center {
     width: 75%;
     height: 196px;
     margin: auto;
@@ -145,7 +137,7 @@ footer {
     margin-top: 46px;
     margin-bottom: 46px;
 }
-.content-sizing-center {
+.content-sizing-small {
     width: 25%;
     margin-left: auto;
     margin-right: auto;
