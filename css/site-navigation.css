@@ -5,8 +5,6 @@ header {
     background: #212121;
     height: 81px;
     border-bottom-width: 8px;
-    border-bottom-style: solid;
-    border-bottom-color: #CCE5F6;
 }
 .header-logo {
     background: #212121;
@@ -17,7 +15,7 @@ header {
     height: 81px;
     overflow: hidden;
 }
-.nav {
+.nav-main {
     display: inline;
     height: 81px;
     font-family: sans-serif;
@@ -27,14 +25,14 @@ header {
     margin: 0px;
     float: right;
 }
-.nav-home {
+.nav-item {
     display: inline;
     padding-right: 16px;
     padding-left: 16px;
     padding-bottom: 25px;
     margin-right: -6px;
 }
-.nav-home:hover {
+.nav-item:hover {
     display: inline;
     padding-right: 16px;
     padding-left: 16px;
@@ -43,98 +41,19 @@ header {
     border-bottom-color: #CCE5F6;
     border-bottom-style: solid;
 }
-.nav-about {
-    display: inline;
-    padding-right: 16px;
-    padding-left: 16px;
-    padding-bottom: 25px;
-    margin-right: -6px;
-}
-.nav-about:hover {
-    display: inline;
-    padding-right: 16px;
-    padding-left: 16px;
-    padding-bottom: 21px;
-    border-bottom-width: 8px;
-    border-bottom-color: #CCE5F6;
-    border-bottom-style: solid;
-}
-.nav-contact {
-    display: inline;
-    padding-right: 16px;
-    padding-left: 16px;
-    padding-bottom: 25px;
-    margin-right: -6px;
-}
-.nav-contact:hover {
-    display: inline;
-    padding-right: 16px;
-    padding-left: 16px;
-    padding-bottom: 21px;
-    border-bottom-width: 8px;
-    border-bottom-color: #CCE5F6;
-    border-bottom-style: solid;
-}
-.nav-donate {
-    display: inline;
-    padding-right: 16px;
-    padding-left: 16px;
-    padding-bottom: 25px;
-    margin-right: -6px;
-}
-.nav-donate:hover {
-    display: inline;
-    padding-right: 16px;
-    padding-left: 16px;
-    padding-bottom: 21px;
-    border-bottom-width: 8px;
-    border-bottom-color: #CCE5F6;
-    border-bottom-style: solid;
-}
-.nav-projects {
-    display: inline;
-    padding-right: 16px;
-    padding-left: 16px;
-    padding-bottom: 25px;
-    margin-right: -6px;
-}
-.nav-projects:hover {
-    display: inline;
-    padding-right: 16px;
-    padding-left: 16px;
-    padding-bottom: 21px;
-    border-bottom-width: 8px;
-    border-bottom-color: #CCE5F6;
-    border-bottom-style: solid;
-}
-.nav-blog {
-    display: inline;
-    padding-right: 16px;
-    padding-left: 16px;
-    padding-bottom: 25px;
-}
-.nav-blog:hover {
-    display: inline;
-    padding-right: 16px;
-    padding-left: 16px;
-    padding-bottom: 21px;
-    border-bottom-width: 8px;
-    border-bottom-color: #CCE5F6;
-    border-bottom-style: solid;
-}
-.nav a:link {
+.nav-main a:link {
     color: #CCE5F6;
     text-decoration: none;
 }
-.nav a:hover {
+.nav-main a:hover {
     color: #3498DB;
     text-decoration: none;
 }
-.nav a:active {
+.nav-main a:active {
     color: #CCE5F6;
     text-decoration: none;
 }
-.nav a:visited {
+.nav-main a:visited {
     color: #CCE5F6;
     text-decoration: none;
 }

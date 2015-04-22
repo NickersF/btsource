@@ -7,10 +7,6 @@ h1 {
 	font-variant: normal;
 	font-weight: 600;
 	line-height: 23px;
-/*
-    margin-top: 23px;
-    margin-bottom: 23px;
-*/
 }
 h3 {
     color: #212121;
@@ -20,10 +16,6 @@ h3 {
 	font-variant: normal;
 	font-weight: 600;
 	line-height: 23px;
-/*
-    margin-top: 46px;
-    margin-bottom: 46px;
-*/
 }
 p {
     color: #212121;
