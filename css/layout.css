@@ -54,10 +54,6 @@ header {
     background-color: #2C3E50;
     clear: both;
 }
-footer {
-    background-color: #2C3E50;
-    clear: both;
-}
 /* section  specific child elements */
 .home-svg {
     height: 290px;
