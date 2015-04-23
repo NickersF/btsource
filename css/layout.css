@@ -56,7 +56,7 @@ header {
 }
 /* section  specific child elements */
 .home-svg {
-    height: 290px;
+    height: 150px;
     background: url(../img/btSplash-01.svg);
     background-repeat: no-repeat;
     background-size: 100%;
