@@ -56,10 +56,12 @@ header {
 }
 /* section  specific child elements */
 .home-svg {
+/*
     height: 150px;
     background: url(../img/btSplash-01.svg);
     background-repeat: no-repeat;
     background-size: 100%;
+*/
 }
 .section-center {
     background-color: #3498DB;
