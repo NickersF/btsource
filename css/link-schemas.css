@@ -1,70 +1,63 @@
 /* dark background*/
-.light a:link {
-    font-family: Verdana, Geneva, sans-serif;
+.hyp-light a:link {
+    font-family: inherit;
     color: dimgray;
     text-decoration: none;
 }
-.light a:visited {
-    font-family: Verdana, Geneva, sans-serif;
+.hyp-light a:visited {
+    font-family: inherit;
+	color: dimgray;
+    text-decoration: none;
+}
+.hyp-light a:active {
+    font-family: inherit;
     color: dimgray;
     text-decoration: none;
 }
-.light a:active {
-    font-family: Verdana, Geneva, sans-serif;
-    color: dimgray;
-    text-decoration: none;
-}
-.light a:hover {
-    font-family: Verdana, Geneva, sans-serif;
+.hyp-light a:hover {
+    font-family: inherit;
     color: #212121;
     text-decoration: underline;
 }
 /* medium blue background*/
-.medium a:link {
-    font-family: Verdana, Geneva, sans-serif;
-    font-size: 14px;
-    color: #2C3E50;
+.hyp-medium a:link {
+    font-family: inherit;
+    color: #616E7C;
     text-decoration: none;
 }
-.medium a:visited {
-    font-family: Verdana, Geneva, sans-serif;
-    color: #2C3E50;
+.hyp-medium a:visited {
+    font-family: inherit;
+	color: #616E7C;
     text-decoration: none;
 }
-.medium a:active {
-    font-family: Verdana, Geneva, sans-serif;
-    font-size: 14px;
-    color: #2C3E50;
+.hyp-medium a:active {
+    font-family: inherit;
+    color: #616E7C;
     text-decoration: none;
 }
-.medium a:hover {
-    font-family: Verdana, Geneva, sans-serif;
-    font-size: 14px;
+.hyp-medium a:hover {
+    font-family: inherit;
     color: #99CBED;
     text-decoration: underline;
 }
 /* dark blue background*/
-.dark a:link {
-    font-family: Verdana, Geneva, sans-serif;
-    font-size: 14px;
+.hyp-dark a:link {
+    font-family: inherit;
     color: #67B2E4;
     text-decoration: none;
 }
-.dark a:visited {
-    font-family: Verdana, Geneva, sans-serif;
-    font-size: 14px;
+.hyp-dark a:visited {
+    font-family: inherit;
+	color: #67B2E4;
+    text-decoration: none;
+}
+.hyp-dark a:active {
+    font-family: inherit;
     color: #67B2E4;
     text-decoration: none;
 }
-.dark a:active {
-    font-family: Verdana, Geneva, sans-serif;
-    font-size: 14px;
-    color: #67B2E4;
-    text-decoration: none;
-}
-.dark a:hover {
-    font-family: Verdana, Geneva, sans-serif;
-    font-size: 14px;
+.hyp-dark a:hover {
+    font-family: inherit;
     color: #CCE5F6;
     text-decoration: underline;
 }

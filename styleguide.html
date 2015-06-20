@@ -20,17 +20,12 @@
 <body>
 <!--    page header     -->
     <header class="header">
-        <img  height="37px" width="203"src="img/bt-proj-logo-wht.png" alt="Brdigetown Source style guide" />
-        <div class="nav-wrapper">
-            <ul class="nav">
-                <li>Test</li>
-            </ul>
-        </div>
+        <a href="index.html" title="Bridgetown Source Main"><img height="37px" width="203"src="img/bt-proj-logo-wht.png" alt="Brdigetown Source style guide"></a>
     </header>
 <!--    welcome     -->
-        <div class="section-center-dark"><span class="section-heading">Bridgetown Source Style Guide</span></div>
+        <div class="section-center-dark text-center"><span class="section-heading">Bridgetown Source Style Guide</span></div>
     <section class="section-light cf">
-        <div class="section-center"><span class="section-heading">Logos &amp; Colors</span></div>
+        <div class="section-center text-center"><span class="section-heading">Logos &amp; Colors</span></div>
         <div class="content-sizing">
             <p>There are various forms of the logo. The main three color logo with the company name. A simple title only logo using shades only, and the graphical logo only. The goal is to use all three of these in different combinations when promoting or representing Bridgetown Source.</p>
         </div>
@@ -42,7 +37,7 @@
     </section>
 <!--    typography -->
     <section class="section-light cf">
-        <div class="section-center"><span class="section-heading">Typographic Elements</span></div>
+        <div class="section-center text-center"><span class="section-heading">Typographic Elements</span></div>
         <div class="content-sizing">
             <p>btsource.net is a small web site therefore I made a point to keep the typographical element count to a minimum. There are five core text elements used on the site. Four headers <span class="code">.section-heading</span> <span class="code">.section-heading-dark</span> <span class="code">.h1</span> <span class="code">.h3</span>, paragraph formatting, blockqoute and a code hilighting element. Font-sizes range from <span class="code">.p == 16px</span> to <span class="code">.section-heading == 32px;</span> Furthermore, each core typographical element has a contrasting selector which renders a lighter font color for dark backgrounds which are applied using the <span class="code">.light</span> child selector of the main element.</p>
             <span class="section-heading-dark">Dark Section Heading</span>
@@ -62,7 +57,7 @@
             </ul>
             <br><br>
             <h3>Syntax Highlighting:</h3>
-            <p>Since btsource.net is all about programming and computer science syntax highlighting is a key feature. I have chosen to use the <span class="light"><a href="http://www.highlightsjs.org/" target="_blank" class="light">highlights.js</a></span> javascript library for handling syntax on the site.</p>
+            <p>Since btsource.net is all about programming and computer science syntax highlighting is a key feature. I have chosen to use the <span class="hyp-light"><a href="http://www.highlightsjs.org/" target="_blank" class="light">highlights.js</a></span> javascript library for handling syntax on the site.</p>
             <pre><code class="hljs cpp">#include <iostream>
 #define IABS(x) ((x) < 0 ? -(x) : (x))
 
@@ -81,7 +76,7 @@ int main(int argc, char *argv[]) {
         </div>
     </section>
     <section class="section-dark cf">
-        <div class="section-center"><span class="section-heading">Inverse Typographic Elements</span></div>
+        <div class="section-center text-center"><span class="section-heading">Inverse Typographic Elements</span></div>
         <div class="content-sizing">
             <span class="section-heading">Light Section Heading</span>
             <br><br><br>
@@ -100,7 +95,7 @@ int main(int argc, char *argv[]) {
             </ul>
             <br><br>
             <h3 class="light">Syntax Highlighting:</h3>
-            <p class="light">Since btsource.net is all about programming and computer science syntax highlighting is a key feature. I have chosen to use the <span class="dark"><a href="http://www.highlightsjs.org/" target="_blank" class="dark">highlights.js</a></span> javascript library for handling syntax on the site.</p>
+            <p class="light">Since btsource.net is all about programming and computer science syntax highlighting is a key feature. I have chosen to use the <span class="hyp-dark"><a href="http://www.highlightsjs.org/" target="_blank" class="dark">highlights.js</a></span> javascript library for handling syntax on the site.</p>
             <pre><code class="hljs cpp">#include <iostream>
 #define IABS(x) ((x) < 0 ? -(x) : (x))
 
@@ -121,7 +116,7 @@ int main(int argc, char *argv[]) {
     </section>
 <!--    page and layout section     -->
     <section class="section-light cf">
-        <div class="section-center"><span class="section-heading">Layout &amp; Grid</span></div>
+        <div class="section-center text-center"><span class="section-heading">Layout &amp; Grid</span></div>
         <div class="content-sizing">
             <p>The btource.net grid is simple and focused on vertical symmetry. Pages start with an HTML5 header element which can contain any navigation elements. Moving down the page section elements divide the page into discrete categories. There are two base section styles: Light blue background, and a dark blue background. for each <span class="code">.section-light</span> or <span class="code">.section-dark</span> there are corresponding selectors which serve as headings for each section:</p>
             <h3>Section specific selectors:</h3>
@@ -139,7 +134,6 @@ int main(int argc, char *argv[]) {
     height: 128px;
     line-height: 128px;
     margin: auto;
-    text-align: center;
 }
 .section-center-dark {
     background-color: #2C3E50;
@@ -147,7 +141,6 @@ int main(int argc, char *argv[]) {
     height: 128px;
     line-height: 128px;
     margin: auto;
-    text-align: center;
 }
 .section-center-light {
     background-color: #CCE5F6;
@@ -155,7 +148,6 @@ int main(int argc, char *argv[]) {
     height: 128px;
     line-height: 128px;
     margin: auto;
-    text-align: center;
 }</code></pre>
             <br><br><br>
             <h3>The Notification Box:</h3>
@@ -165,20 +157,11 @@ int main(int argc, char *argv[]) {
             </div>
             <br><br><br>
             <h3>The Global Footer:</h3>
-            <p>btsource.net's footer contains two columns and one element with a small copyright clause. Using the <span class="code">.footer-cont</span> selector to establish a <span class="code">75%</span> width, the <span class="code">.footer-cols</span> selector divides the parent element into two columns. The first column shows the development stack btsource.net is currently using, as well as a link to this style guide. As different technologies get implemented into the site they will be appended into the 'Site Information' column. The second column displays ways to contact me through non-web based communications methods.<br>The footer becomes more complex with the addition of the sitewide icon set described in detail in the icons and buttons section of the style guide.</p>
-            <pre><code class="hljs css">.footer-center {
-    width: 75%;
-    height: 196px;
-    margin: auto;
-    padding-bottom: 46px;
-    padding-top: 46px;
-}
-.footer-cols {
-    width: 45%;
-    display: inline-block;
-}
+            <p>btsource.net's footer is simplistic, and uses one class. Text rules are inherited from other elements of the site.</p>
+            <pre><code class="hljs css">
 .footer-content {
     padding-top: 46px;
+    padding-bottom: 46px;
 }</code></pre>
         </div>
     </section>
@@ -188,21 +171,9 @@ int main(int argc, char *argv[]) {
     </section>
 <!--    footer begin    -->
     <footer class="section-dark cf">
-            <div class="footer-center">
-                <div class="footer-cols">
-                    <div class="footer-icons"><span class="icon-info"></span></div>
-                    <p class="footer-heading">Site Information</p>
-                    <p class="footer-content footer-text"><b>Libaries used:</b> Highlights.js<br><b>Lang stack:</b> HTML5, CSS3, JS: V8 4.1.0.21<br><b>Backend:</b> MySQL, PHP: 5.5.19 <b>Local:</b> XAMPP Win 8.1, <b>Server:</b> Linux<br>Style Guide</p>
-                </div>
-                <div class="footer-cols">
-                    <div class="footer-icons"><span class="icon-mail"></span></div>
-                    <p class="footer-heading">Contact Information</p>
-                    <p class="footer-content footer-text"><b>Tel:</b> 503-957-9399<br><b>E-mail:</b> nickersf@btsource.net<br><b>Address:</b> PO Box 1021 Portland, Oregon, 97266<br>Always looking for work.</p>
-                </div>
-            </div>
-            <div class="content-sizing-big">
-                <span class="footer-text">Copyright 2015 - Nicholas Fazzolari, All Rights Reserved. Hand Crafted with love, brackets, and caffeine.</span>
-            </div>
+    	<div class="footer-content text-center">
+        	<span class="footer-heading"><span class="hyp-medium"><a href="styleguide.html" title="Bridgetown Source Style Guide">Style Guide</a></span> | <span class="hyp-medium"><a href="mailto:nickersf@btsource.net">nickersf@btsource.net</a></span> | &copy; Bridgetown Source 2014-2015</span>
+        </div>
     </footer>
 </body>
 </html>

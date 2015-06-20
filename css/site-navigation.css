@@ -38,22 +38,22 @@ header {
     padding-left: 16px;
     padding-bottom: 21px;
     border-bottom-width: 8px;
-    border-bottom-color: #CCE5F6;
+    border-bottom-color: #FFFFFF;
     border-bottom-style: solid;
 }
 .nav-main a:link {
-    color: #CCE5F6;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.nav-main a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.nav-main a:active {
+    color: #FFFFFF;
     text-decoration: none;
 }
 .nav-main a:hover {
     color: #3498DB;
-    text-decoration: none;
-}
-.nav-main a:active {
-    color: #CCE5F6;
-    text-decoration: none;
-}
-.nav-main a:visited {
-    color: #CCE5F6;
     text-decoration: none;
 }

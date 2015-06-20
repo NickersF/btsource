@@ -95,7 +95,7 @@ header {
 }
 .contact-cols {
     background-color: #2C3E50;
-    width: 25%;
+    width: 33%;
     height: 174px;
     float: left;
     display: inline-block;
@@ -126,7 +126,7 @@ header {
     margin-bottom: 46px;
 }
 .content-sizing-big {
-    width: 800px;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
 }
