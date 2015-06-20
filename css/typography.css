@@ -134,17 +134,7 @@ li.light {
 	font-variant: normal;
 	font-weight: 600;
 	line-height: 23px;
-    text-align: center;
     margin-top: 12px;
-}
-.footer-text {
-    color: #616E7C;
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: 12px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
-	line-height: 23px;
 }
 span.code {
     color: #2C3E50;
@@ -162,10 +152,16 @@ span.code {
     text-align: center;
     height: 48px;
 }
-.footer-icons {
-    color: #616E7C;
-    font-size: 48px;
-    text-align: center;
-    height: 48px;
-    float: left
+/* text justifications */
+.text-left {
+	text-align: left;
+}
+.text-center {
+	text-align: center;
+}
+.text-right {
+	text-align: right;
+}
+.text-justify {
+	text-align: justify;
 }
