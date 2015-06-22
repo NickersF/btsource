@@ -56,19 +56,20 @@ header {
     background-color: #212121;
     width: 100%;
     position: fixed;
+    z-index: 1;
 }
-.section-light-home {
+.section-light-full {
     background-color: #FFFFFF;
+    height: 100%;
+    clear: both;
+}
+.section-dark-full {
+    background-color: #2C3E50;
     height: 100%;
     clear: both;
 }
 .section-light {
     background-color: #FFFFFF;
-    clear: both;
-}
-.section-dark-net {
-    background-color: #2C3E50;
-    height: 100%;
     clear: both;
 }
 .section-dark {
@@ -153,5 +154,5 @@ header {
 .vert-center {
     position: relative;
     top: 50%;
-    transform: translateY(-70%);
+    transform: translateY(-50%);
 }
