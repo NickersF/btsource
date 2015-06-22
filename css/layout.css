@@ -26,10 +26,9 @@ footer, header, hgroup, menu, nav, section {
 }
 html {
 	height: 100%;
-	position: relative;
 }
 body {
-	line-height: 1;
+    height: 100%;
 }
 ol, ul {
 	list-style: none;
@@ -55,9 +54,24 @@ table {
 /* top level elements */
 header {
     background-color: #212121;
+    width: 100%;
+    position: fixed;
+}
+.section-light-home {
+    background-color: #FFFFFF;
+    padding-top: 81px;
+    height: 100%;
+    clear: both;
 }
 .section-light {
     background-color: #FFFFFF;
+    padding-top: 81px;
+    clear: both;
+}
+.section-dark-net {
+    background-color: #2C3E50;
+    padding-top: 81px;
+    height: 100%;
     clear: both;
 }
 .section-dark {
