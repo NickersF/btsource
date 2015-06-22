@@ -5,6 +5,7 @@ header {
     background: #212121;
     height: 81px;
     border-bottom-width: 8px;
+    z-index: 1;
 }
 .header-logo {
     background: #212121;

@@ -59,18 +59,15 @@ header {
 }
 .section-light-home {
     background-color: #FFFFFF;
-    padding-top: 81px;
     height: 100%;
     clear: both;
 }
 .section-light {
     background-color: #FFFFFF;
-    padding-top: 81px;
     clear: both;
 }
 .section-dark-net {
     background-color: #2C3E50;
-    padding-top: 81px;
     height: 100%;
     clear: both;
 }
@@ -106,11 +103,11 @@ header {
     height: 128px;
     line-height: 128px;
     margin: auto;
+    z-index: -1;
 }
 .contact-cols {
     background-color: #2C3E50;
     width: 33%;
-    height: 174px;
     float: left;
     display: inline-block;
 }
@@ -149,4 +146,12 @@ header {
     width: 50%;
     margin: 0 auto;
     padding: 8px;
+}
+.pad-nav {
+    padding-top: 81px;
+}
+.vert-center {
+    position: relative;
+    top: 50%;
+    transform: translateY(-70%);
 }
