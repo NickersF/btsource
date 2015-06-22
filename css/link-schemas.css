@@ -1,4 +1,4 @@
-/* dark background*/
+/* link styles for light background*/
 .hyp-light a:link {
     font-family: inherit;
     color: dimgray;
@@ -19,7 +19,7 @@
     color: #212121;
     text-decoration: underline;
 }
-/* medium blue background*/
+/* link styles for medium blue background*/
 .hyp-medium a:link {
     font-family: inherit;
     color: #616E7C;
@@ -40,7 +40,7 @@
     color: #99CBED;
     text-decoration: underline;
 }
-/* dark blue background*/
+/* link styles for dark background*/
 .hyp-dark a:link {
     font-family: inherit;
     color: #67B2E4;

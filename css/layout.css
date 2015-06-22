@@ -107,10 +107,10 @@ header {
     z-index: -1;
 }
 .contact-cols {
+    display: inline-block;
     background-color: #2C3E50;
     width: 33%;
     float: left;
-    display: inline-block;
 }
 .contact-circle {
     background-color: #3498DB;
@@ -125,7 +125,7 @@ header {
 	padding-bottom: 46px;
 }
 /* text container sizings */
-.auto-sizing {
+.img-sizing-center {
     display: block;
     margin: auto;
     margin-top: 46px;
