@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Bridgetown Source | Page Name</title>
+    <title>Bridgetown Source - Sytle Guide</title>
     <meta charset="UTF-8">
     <meta name="description" content="Portfolio of Nicholas Fazzolari freelance web developer and computer science student. Home of Bridgetown Source. " />
     <link rel="icon" href="img/btFavicon.ico">
@@ -11,7 +11,6 @@
     <link rel="stylesheet" type="text/css" href="css/icons.css">
     <link rel="stylesheet" type="text/css" href="css/link-schemas.css">
     <link rel="stylesheet" type="text/css" href="css/buttons.css">
-    <link rel="stylesheet" type="text/css" href="css/style-guide.css">
     <link rel="stylesheet" type="text/css" href="scripts/styles/monokai.css">
 <!-- inline code highlighting js-lib -->
     <script src="scripts/highlight.pack.js"></script>
@@ -20,16 +19,21 @@
 <body>
 <!--    page header     -->
     <header class="header">
-        <a href="index.html" title="Bridgetown Source Main"><img height="37px" width="203"src="img/bt-proj-logo-wht.png" alt="Brdigetown Source style guide"></a>
+        <a href="index.html" title="Bridgetown Source Main"><img height="37px" width="203" src="img/bt-proj-logo-wht.png" alt="Brdigetown Source style guide"></a>
     </header>
 <!--    welcome     -->
-        <div class="section-center-dark text-center"><span class="section-heading">Bridgetown Source Style Guide</span></div>
+    <section class="section-light-full">
+        <div class="section-center-light pad-nav-styleguide text-center"><span class="section-heading-dark">Bridgetown Source Style Guide</span></div>
+        <div class="content-sizing">
+            <p>Welcome to the BTSOURCE.NET style guide. The following style guide gives a detailed rationale and explanation of each component and rule used throughout the site.</p>
+        </div>
+    </section>
     <section class="section-light cf">
         <div class="section-center text-center"><span class="section-heading">Logos &amp; Colors</span></div>
         <div class="content-sizing">
             <p>There are various forms of the logo. The main three color logo with the company name. A simple title only logo using shades only, and the graphical logo only. The goal is to use all three of these in different combinations when promoting or representing Bridgetown Source.</p>
         </div>
-        <img  class="auto-sizing" alt="bridgetown source logo collection" src="img/bt-logo-collection.png">
+        <img  class="img-sizing-center" alt="bridgetown source logo collection" src="img/bt-logo-collection.png">
         <div class="content-sizing">
             <h3>Site Colors:</h3>
             <p>The color palette for the site is derived from the logo set. Below is a full spectrum of the color palette of btsource.net.</p>
@@ -58,7 +62,8 @@
             <br><br>
             <h3>Syntax Highlighting:</h3>
             <p>Since btsource.net is all about programming and computer science syntax highlighting is a key feature. I have chosen to use the <span class="hyp-light"><a href="http://www.highlightsjs.org/" target="_blank" class="light">highlights.js</a></span> javascript library for handling syntax on the site.</p>
-            <pre><code class="hljs cpp">#include <iostream>
+            <pre><code class="hljs cpp">
+#include <iostream>
 #define IABS(x) ((x) < 0 ? -(x) : (x))
 
 int main(int argc, char *argv[]) {

@@ -151,8 +151,11 @@ header {
 .pad-nav {
     padding-top: 81px;
 }
+.pad-nav-styleguide {
+    padding-top: 41px;
+}
 .vert-center {
     position: relative;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(0%);
 }
