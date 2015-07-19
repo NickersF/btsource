@@ -1,0 +1,41 @@
+.container {
+  width: 75%;
+  margin: auto;
+  height: inherit;
+}
+.outer {
+  position: relative;
+  height: inherit;
+  background-color: lightgrey;
+}
+
+.inner {
+  font-family: sans-serif;
+  font-size: 26px;
+  width: 50%;
+  height: 50%;
+  overflow: auto;
+  margin: auto;
+  padding: 12px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: grey;
+  color: white;
+}
+
+.sp1 {
+  font-weight: 700;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%
+}
+
+p {
+  margin: 0;
+}
