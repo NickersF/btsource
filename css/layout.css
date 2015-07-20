@@ -130,6 +130,10 @@ header {
     margin: auto;
     margin-top: 46px;
 }
+.img-float-left {
+    float: left;
+    margin: 8px 8px 8px 0
+}
 .content-sizing {
     width: 600px;
     margin-left: auto;
