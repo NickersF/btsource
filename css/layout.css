@@ -77,13 +77,12 @@ header {
     clear: both;
 }
 /* section  specific child elements */
-/*.home-svg {
-    height: 150px;
-    background: url(../img/btSplash-01.svg);
-    background-repeat: no-repeat;
+.home-svg {
+    background: url(../img/bt-splash-murmur.svg);
+    background-repeat: repeat;
     background-position: center;
-    background-size: 100%;
-}*/
+    background-size: cover;
+}
 .section-center {
     background-color: #3498DB;
     width: 100%;
