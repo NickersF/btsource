@@ -1,0 +1,28 @@
+body {
+    height: 100%;
+    font-family: sans-serif;
+}
+
+.container {
+    background-color: aquamarine;
+    width: 100%;
+}
+.container-inner-fullvert {
+    background-color: cornflowerblue;
+    width: 60%;
+    height: 100vh;
+    margin: auto;
+}
+.content-container {
+    background-color: darkslateblue;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50);
+}
+.inner-content-object {
+    background-color: darkblue;
+    position: relative;
+    width: 33.3%;
+    float: left;
+    color: aliceblue;
+}
