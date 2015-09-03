@@ -1,3 +1,9 @@
+/*
+==========================
+author: nicholas fazzolari
+==========================
+*/
+
 /* html 5 resets */
 body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -51,13 +57,30 @@ table {
     display: table;
     clear: both;
 }
-/* top level elements */
+
+/*
+==================
+SECTION CONTAINERS
+==================
+*/
+
+/* navigation container */
 header {
     background-color: #212121;
     width: 100%;
     position: fixed;
     z-index: 1;
 }
+/* non-height specific section containers - white and dark-slate blue */
+.section-light {
+    background-color: #FFFFFF;
+    clear: both;
+}
+.section-dark {
+    background-color: #2C3E50;
+    clear: both;
+}
+/* 100 % view height section containers */
 .section-light-full {
     background-color: #FFFFFF;
     height: 100vh;
@@ -68,36 +91,29 @@ header {
     height: 100vh;
     clear: both;
 }
-.section-light {
-    background-color: #FFFFFF;
-    clear: both;
-}
-.section-dark {
-    background-color: #2C3E50;
-    clear: both;
-}
-/* section  specific child elements */
-.home-svg {
-    background: url(../img/bt-splash-murmur.svg);
-    background-repeat: repeat;
-    background-position: center;
-    background-size: cover;
-}
-.section-center {
+
+/*
+================
+CHILD CONTAINERS
+================
+*/
+
+/* section headers */
+.section-header {
     background-color: #3498DB;
     width: 100%;
     height: 128px;
     line-height: 128px;
     margin: auto;
 }
-.section-center-dark {
+.section-header-dark {
     background-color: #2C3E50;
     width: 100%;
     height: 128px;
     line-height: 128px;
     margin: auto;
 }
-.section-center-light {
+.section-header-light {
     background-color: #FFFFFF;
     width: 100%;
     height: 128px;
@@ -105,6 +121,7 @@ header {
     margin: auto;
     z-index: -1;
 }
+/* contact section layout components !DEPRICATED! */
 .contact-cols {
     display: inline-block;
     background-color: #2C3E50;
@@ -119,11 +136,12 @@ header {
     line-height: 210px;
     margin: auto;
 }
-.footer-content {
+/* footer containers */
+.footer-container {
     padding-top: 46px;
 	padding-bottom: 46px;
 }
-/* text container sizings */
+/* image containers */
 .img-sizing-center {
     display: block;
     margin: auto;
@@ -134,14 +152,15 @@ header {
     margin-top: 46px;
     margin-right: 16px;
 }
-.content-sizing {
+/* content containers */
+.container-md {
     width: 600px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 46px;
     margin-bottom: 46px;
 }
-.content-sizing-big {
+.container-lg {
     width: 75%;
     margin-left: auto;
     margin-right: auto;
@@ -152,16 +171,10 @@ header {
     margin: 0 auto;
     padding: 8px;
 }
-.pad-connect {
-    margin-top: 10%
-}
+/* padding hacks (might face deprecation) */
 .pad-nav {
     padding-top: 81px;
 }
 .pad-nav-styleguide {
     padding-top: 41px;
-}
-.vert-center {
-    position: relative;
-    top: 50%;
 }

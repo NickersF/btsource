@@ -1,4 +1,10 @@
-/* base type styles white/black*/
+/*
+==========================
+author: nicholas fazzolari
+==========================
+*/
+
+/* typographic rules for white background */
 h1 {
     color: #212121;
 	font-family: Verdana, Geneva, sans-serif;
@@ -56,7 +62,8 @@ ul.main {
 li {
     padding-bottom: 23px;
 }
-/* light defult type styles*/
+
+/* typgoraphic rules for dark background */
 h1.light {
     color: #CCE5F6;
     font-family: Verdana, Geneva, sans-serif;
@@ -105,7 +112,8 @@ ul.light {
 li.light {
     padding-bottom: 23px;
 }
-/* child typographical elements */
+
+/* large serif headings */
 .section-heading {
     font-family: Georgia, Times, Times New Roman, serif;
     font-size: 32px;
@@ -136,6 +144,8 @@ li.light {
 	line-height: 23px;
     margin-top: 12px;
 }
+
+/* inline code hinting */
 span.code {
     color: #2C3E50;
     font-family: monospace;
@@ -144,13 +154,6 @@ span.code {
     border-radius: 4px;
     padding-left: 6px;
     padding-right: 6px;
-}
-/* icon styles*/
-.general-icons {
-    color: #212121;
-    font-size: 48px;
-    text-align: center;
-    height: 48px;
 }
 /* text justifications */
 .text-left {

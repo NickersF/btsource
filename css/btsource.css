@@ -1,11 +1,8 @@
 /*
-Author: Nicholas Fazzolari
-http://www.btsrouce.net/ master CSS file
+==========================
+author: nicholas fazzolari
+==========================
 */
-
-/* LAYOUT RULES */
-
-/* html 5 resets */
 body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -26,7 +23,6 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -52,28 +48,16 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/* clear fix */
 .cf:after {
     content: "";
     display: table;
     clear: both;
 }
-/* top level elements */
 header {
     background-color: #212121;
     width: 100%;
     position: fixed;
     z-index: 1;
-}
-.section-light-full {
-    background-color: #FFFFFF;
-    height: 100%;
-    clear: both;
-}
-.section-dark-full {
-    background-color: #2C3E50;
-    height: 100%;
-    clear: both;
 }
 .section-light {
     background-color: #FFFFFF;
@@ -83,29 +67,31 @@ header {
     background-color: #2C3E50;
     clear: both;
 }
-/* section  specific child elements */
-/*.home-svg {
-    height: 150px;
-    background: url(../img/btSplash-01.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-}*/
-.section-center {
+.section-light-full {
+    background-color: #FFFFFF;
+    height: 100vh;
+    clear: both;
+}
+.section-dark-full {
+    background-color: #2C3E50;
+    height: 100vh;
+    clear: both;
+}
+.section-header {
     background-color: #3498DB;
     width: 100%;
     height: 128px;
     line-height: 128px;
     margin: auto;
 }
-.section-center-dark {
+.section-header-dark {
     background-color: #2C3E50;
     width: 100%;
     height: 128px;
     line-height: 128px;
     margin: auto;
 }
-.section-center-light {
+.section-header-light {
     background-color: #FFFFFF;
     width: 100%;
     height: 128px;
@@ -127,24 +113,28 @@ header {
     line-height: 210px;
     margin: auto;
 }
-.footer-content {
+.footer-container {
     padding-top: 46px;
 	padding-bottom: 46px;
 }
-/* text container sizings */
 .img-sizing-center {
     display: block;
     margin: auto;
     margin-top: 46px;
 }
-.content-sizing {
+.img-float-left {
+    float: left;
+    margin-top: 46px;
+    margin-right: 16px;
+}
+.container-md {
     width: 600px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 46px;
     margin-bottom: 46px;
 }
-.content-sizing-big {
+.container-lg {
     width: 75%;
     margin-left: auto;
     margin-right: auto;
@@ -158,15 +148,9 @@ header {
 .pad-nav {
     padding-top: 81px;
 }
-.vert-center {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+.pad-nav-styleguide {
+    padding-top: 41px;
 }
-
-/* TYPOGRAPHY RULES */
-
-/* base type styles white/black*/
 h1 {
     color: #212121;
 	font-family: Verdana, Geneva, sans-serif;
@@ -224,7 +208,6 @@ ul.main {
 li {
     padding-bottom: 23px;
 }
-/* light defult type styles*/
 h1.light {
     color: #CCE5F6;
     font-family: Verdana, Geneva, sans-serif;
@@ -273,7 +256,6 @@ ul.light {
 li.light {
     padding-bottom: 23px;
 }
-/* child typographical elements */
 .section-heading {
     font-family: Georgia, Times, Times New Roman, serif;
     font-size: 32px;
@@ -313,14 +295,6 @@ span.code {
     padding-left: 6px;
     padding-right: 6px;
 }
-/* icon styles*/
-.general-icons {
-    color: #212121;
-    font-size: 48px;
-    text-align: center;
-    height: 48px;
-}
-/* text justifications */
 .text-left {
 	text-align: left;
 }
@@ -333,10 +307,6 @@ span.code {
 .text-justify {
 	text-align: justify;
 }
-
-/* LINK SCHEMAS */
-
-/* link styles for light background*/
 .hyp-light a:link {
     font-family: inherit;
     color: dimgray;
@@ -357,7 +327,6 @@ span.code {
     color: #212121;
     text-decoration: underline;
 }
-/* link styles for medium blue background*/
 .hyp-medium a:link {
     font-family: inherit;
     color: #616E7C;
@@ -378,7 +347,6 @@ span.code {
     color: #99CBED;
     text-decoration: underline;
 }
-/* link styles for dark background*/
 .hyp-dark a:link {
     font-family: inherit;
     color: #67B2E4;
@@ -399,10 +367,6 @@ span.code {
     color: #CCE5F6;
     text-decoration: underline;
 }
-
-/* SITE NAVIGATION */
-
-/* child elements of header & wrappers */
 .header-logo {
     background: #212121;
     float: left;
@@ -412,7 +376,6 @@ span.code {
     height: 81px;
     overflow: hidden;
 }
-/* list decorators for nivgation */
 .nav-main {
     display: inline;
     height: 81px;
@@ -439,7 +402,6 @@ span.code {
     border-bottom-color: #FFFFFF;
     border-bottom-style: solid;
 }
-/* link styles for navigation */
 .nav-main a:link {
     color: #FFFFFF;
     text-decoration: none;
@@ -456,61 +418,6 @@ span.code {
     color: #3498DB;
     text-decoration: none;
 }
-
-/* ICONS */
-
-@font-face {
-	font-family: 'main-icons';
-	src:url('../fonts/main-icons.eot?-19yqff');
-	src:url('../fonts/main-icons.eot?#iefix-19yqff') format('embedded-opentype'),
-		url('../fonts/main-icons.woff?-19yqff') format('woff'),
-		url('../fonts/main-icons.ttf?-19yqff') format('truetype'),
-		url('../fonts/main-icons.svg?-19yqff#main-icons') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-
-[class^="icon-"], [class*=" icon-"] {
-	font-family: 'main-icons';
-	speak: none;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-
-
-	/* Better Font Rendering =========== */
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-}
-
-.icon-eye:before {
-	content: "\f04e";
-}
-
-.icon-gear:before {
-	content: "\f02f";
-}
-
-.icon-home:before {
-	content: "\f08d";
-}
-
-.icon-info:before {
-	content: "\f059";
-}
-
-.icon-mail:before {
-	content: "\f03b";
-}
-
-.icon-trashcan:before {
-	content: "\f0d0";
-}
-
-/* BUTTONS */
-
-/* default buttons */
 .button-green {
   color: darkgreen;
   font-weight: 700;
@@ -615,7 +522,6 @@ span.code {
   border-style: solid;
   border-color: #E55000;
 }
-/* large default buttons */
 .button-green-lrg {
   color: darkgreen;
   font-size: 24px;

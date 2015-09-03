@@ -1,3 +1,9 @@
+/*
+==========================
+author: nicholas fazzolari
+==========================
+*/
+
 /* child elements of header & wrappers */
 .header-logo {
     background: #212121;
@@ -8,7 +14,8 @@
     height: 81px;
     overflow: hidden;
 }
-/* list decorators for nivgation */
+
+/* list decorators for navigation */
 .nav-main {
     display: inline;
     height: 81px;
@@ -35,6 +42,7 @@
     border-bottom-color: #FFFFFF;
     border-bottom-style: solid;
 }
+
 /* link styles for navigation */
 .nav-main a:link {
     color: #FFFFFF;

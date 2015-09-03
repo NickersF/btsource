@@ -1,3 +1,9 @@
+/*
+==========================
+author: nicholas fazzolari
+==========================
+*/
+
 /* link styles for light background*/
 .hyp-light a:link {
     font-family: inherit;
@@ -19,6 +25,7 @@
     color: #212121;
     text-decoration: underline;
 }
+
 /* link styles for medium blue background*/
 .hyp-medium a:link {
     font-family: inherit;
@@ -40,6 +47,7 @@
     color: #99CBED;
     text-decoration: underline;
 }
+
 /* link styles for dark background*/
 .hyp-dark a:link {
     font-family: inherit;

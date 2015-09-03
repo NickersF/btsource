@@ -1,3 +1,9 @@
+/*
+==========================
+author: nicholas fazzolari
+==========================
+*/
+
 /* default buttons */
 .button-green {
   color: darkgreen;
@@ -103,6 +109,7 @@
   border-style: solid;
   border-color: #E55000;
 }
+
 /* large default buttons */
 .button-green-lrg {
   color: darkgreen;
