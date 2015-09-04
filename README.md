@@ -1,21 +1,32 @@
-# btsource re-launch!
+# BTSOURCE.net - Source Code Repository
 
-My portfolio web site source code. Style guide and docs coming soon.
-Planned launch dates:
-* 9/10/2015 - Next update
+### http://www.btsource.net/
 
-The site is on a weekly update schedule. Major changes will be noted here before release.
+Take a look around and check out the code. Currently on stable version 1.5.0. Check this page to
+see what changes and additions are taking place at [btsource.net] (http://www.btsource.net). The committ and upload
+schedule falls in line with my school schedule. During college breaks the repo and web site will be 
+more active. I do my best to keep a bi-monthly update schedule during school sessions and address major
+bugs and fixes.
 
-# Current TODO:
-1. Clean up CSS files
-2. Add media queries to improve responsivness
-3. Revise site colors
-3. Edit style guide to match new CSS rules
-4. Add 'Work' section to showcase latest portfolio pieces
-5. Consider using a webfont for header text selections
-6. Edit 'Connect' section to be vertically aligned
+## Current TODO:
+* Add media queries to improve responsivness
+* Edit style guide to match new CSS rules
+* Add 'Work' section to showcase latest portfolio pieces
+* Consider using a webfont for header text selections
 
-# An Open Source Repo:
+## Version 1.5.0
+* Fixed vertical alignment in the 'connect' section.
+* Cleaned up CSS files
+    * Removed unused rules
+    * Improved comments for development version
+    * Refactored several rules for clarity
+* Made minor adjustments to navigation bar
+* Implemented 'production' and 'development' versions
+
+## Version 1.0.0
+* Dirty first launch
+
+## An Open Source Repo:
 Use these files as you wish. Open Source for life.
 
 ## Feedback, Contacts, and Work:
