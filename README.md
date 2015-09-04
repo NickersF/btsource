@@ -37,4 +37,4 @@ Visit my website and blog: http://www.btsource.net/
 
 Contact me via e-mail: nickers@btsource.net
 
-Follow me on Twitter: @NickersFpdx
+Follow me on Twitter: [@NickersFpdx](https://twitter.com/NickersFpdx)
