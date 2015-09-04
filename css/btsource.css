@@ -99,19 +99,15 @@ header {
     margin: auto;
     z-index: -1;
 }
-.contact-cols {
-    display: inline-block;
-    background-color: #2C3E50;
-    width: 33%;
-    float: left;
+.container-connect {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
-.contact-circle {
-    background-color: #3498DB;
-    width: 128px;
-    height: 128px;
-    border-radius: 50%;
-    line-height: 210px;
-    margin: auto;
+.col-connect {
+    position: relative;
+    width: 33.3%;
+    float: left;
 }
 .footer-container {
     padding-top: 46px;
@@ -121,6 +117,14 @@ header {
     display: block;
     margin: auto;
     margin-top: 46px;
+}
+.img-sizing-center-connect {
+    display: block;
+    margin: auto;
+    margin-top: 46px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .img-float-left {
     float: left;
@@ -144,6 +148,12 @@ header {
     width: 50%;
     margin: 0 auto;
     padding: 8px;
+}
+.anchor-fixed {
+    display: block;
+    position: relative;
+    top: -81px;
+    visibility: hidden;
 }
 .pad-nav {
     padding-top: 81px;
@@ -370,11 +380,12 @@ span.code {
 .header-logo {
     background: #212121;
     float: left;
+    z-index: -1;
 }
 .nav-wrapper { 
     background: #212121;
     height: 81px;
-    overflow: hidden;
+    float: right;
 }
 .nav-main {
     display: inline;

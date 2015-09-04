@@ -16,9 +16,7 @@
 <body>
 <!--    header  -->
     <header class="header" id="top">
-        <div class="header-logo">
-            <img src="img/bt-main-logo-wht.png"  width="422" height="77" alt="Bridgetown Source logo">
-        </div>
+        <img src="img/bt-main-logo-wht.png" alt="Bridgetown Source logo">
         <div class="nav-wrapper">
             <ul class="nav-main">
                 <li class="nav-item"><a href="#contact">Connect</a></li>
@@ -29,28 +27,23 @@
         </div>
     </header>
 <!--    contact section     -->
-    <section class="section-dark-full cf" id="contact">
-        <div class="section-header-dark pad-nav text-center"><span class="section-heading">Connect With Me</span></div>
-            <div class="container-md cf">
-                <div class="contact-cols">
-                    <div class="contact-circle text-center"><img src="img/icons-socialmed/96SocialMedia_git_w.png" onmouseover="this.src='img/icons-socialmed/96SocialMedia_git_b.png'" onmouseout="this.src='img/icons-socialmed/96SocialMedia_git_w.png'" onclick="window.open('https://github.com/NickersF')" alt="Nicholas Fazzolari's GitHub"></div>
-                </div>
-                <div class="contact-cols">
-                    <div class="contact-circle text-center">
-                    <img src="img/icons-socialmed/96SocialMedia_in_w.png" onmouseover="this.src='img/icons-socialmed/96SocialMedia_in_b.png'" onmouseout="this.src='img/icons-socialmed/96SocialMedia_in_w.png'" onclick="window.open('http://www.linkedin.com/in/nickfazzolari')" alt="Nicholas Fazzolari's Linkedin"></div>
-                </div>
-                <div class="contact-cols">
-                    <div class="contact-circle text-center">
-                    <img src="img/icons-socialmed/96SocialMedia_twit_w.png" onmouseover="this.src='img/icons-socialmed/96SocialMedia_twit_b.png'" onmouseout="this.src='img/icons-socialmed/96SocialMedia_twit_w.png'" onclick="window.open('http://www.twitter.com/NickersFpdx')" alt="Nicholas Fazzolari's Twitter "></div>
-                </div>
+    <section class="section-dark-full cf">
+        <a class="anchor-fixed" id="contact"></a>
+        <div class="container-connect">
+            <div class="section-header-dark text-center"><span class="section-heading">Connect With Me</span></div>
+            <div class="container-lg text-center">
+                <div class="col-connect"><a href="https://github.com/NickersF" target="_blank"><img id="outLink-git"class="img-sizing-center-connect" src="img/icons-socialmed/96SocialMedia_git_w.png"></a></div>
+                <div class="col-connect"><a href="https://twitter.com/NickersFpdx" target="_blank"><img id="outLink-twi"class="img-sizing-center-connect" src="img/icons-socialmed/96SocialMedia_twit_w.png"></a></div>
+                <div class="col-connect"><a href="https://www.linkedin.com/in/nickfazzolari" target="_blank"><img id="outLink-lin"class="img-sizing-center-connect" src="img/icons-socialmed/96SocialMedia_in_w.png"></a></div>
+                <span class="section-heading hyp-dark">E-mail me: <a href="mailto:nickers@btsource.net">nickersf@btsource.net</a></span>
             </div>
-        <div class="text-center">
-            <span class="section-heading hyp-dark">E-mail me: <a href="mailto:nickers@btsource.net">nickersf@btsource.net</a></span>
         </div>
     </section>
 <!--    about section -->
-    <section class="section-light cf" id="about">
-        <div class="section-header pad-nav text-center"><span class="section-heading">About Me</span></div>
+
+    <section class="section-light cf">
+        <a class="anchor-fixed" id="about"></a>
+        <div class="section-header text-center"><span class="section-heading">About Me</span></div>
         <div class="container-md">
             <h3 class="text-center">A Short Bio</h3>
             <p class="dark">I am Nick Fazzolari, Computer Science student, lover of music, mathematics and anything software related. Currently working to support myself in the world of freelance web development while attending school. I take my chances with graphic design from time to time. I'm often described as being overly passionate, and even obsessive. Fine by me - at least I have things which drive me.</p>
@@ -69,8 +62,9 @@
 <!--    page footer start   -->
     <footer class="section-dark cf">
     	<div class="footer-container text-center">
-        	<span class="footer-heading"><span class="hyp-medium"><a href="styleguide.html" title="Bridgetown Source Style Guide">Style Guide</a></span> | &copy; Bridgetown Source 2014-2015</span>
+        	<span class="footer-heading"><span class="hyp-medium"><a href="styleguide.html" title="Bridgetown Source Style Guide">Style Guide</a>   </span> | &copy; Bridgetown Source 2014-2015</span>
         </div>
     </footer>
+    <script type="text/javascript" src="js/connect-links.js"></script>
 </body>
 </html>
