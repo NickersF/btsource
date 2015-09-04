@@ -69,7 +69,7 @@ header {
     background-color: #212121;
     width: 100%;
     position: fixed;
-    z-index: 1;
+    z-index: 3;
 }
 /* non-height specific section containers - white and dark-slate blue */
 .section-light {

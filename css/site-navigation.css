@@ -8,11 +8,12 @@ author: nicholas fazzolari
 .header-logo {
     background: #212121;
     float: left;
+    z-index: -1;
 }
 .nav-wrapper { 
     background: #212121;
     height: 81px;
-    overflow: hidden;
+    float: right;
 }
 
 /* list decorators for navigation */
@@ -24,7 +25,6 @@ author: nicholas fazzolari
     list-style: none;
     line-height: 81px;
     margin: 0px;
-    float: right;
 }
 .nav-item {
     display: inline;
