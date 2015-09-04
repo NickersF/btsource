@@ -33,5 +33,8 @@ Use these files as you wish. Open Source for life.
 
 Feel free to contact me with feedback regarding the code/design of the site. I am also looking for work in front-end, and UI design, and general collaboration.
 
-Contact me: via e-mail at nickers@btsource.net
-Twitter: @NickersFpdx
+Visit my website and blog: http://www.btsource.net/
+
+Contact me via e-mail: nickers@btsource.net
+
+Follow me on Twitter: @NickersFpdx
