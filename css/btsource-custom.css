@@ -1,0 +1,76 @@
+/* Author: Nick Fazzolari */
+html {
+    height: 100%;
+}
+body {
+    height: inherit;
+}
+.grey {
+    background-color: lightgray;
+}
+.full-vh-test {
+    height: 100vh;
+    background-color: #2C3E50;
+}
+.vert-test {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%)
+}
+/* Custom Navbar */
+#btsource-menu.navbar-default .navbar-brand {
+    color: rgba(119, 119, 119, 1);
+}
+#btsource-menu.navbar-default {
+    font-size: 20px;
+    background-color: rgba(33, 33, 33, 1);
+    border-bottom-width: 0px;
+}
+#btsource-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(119, 119, 119, 1);
+    background-color: rgba(248, 248, 248, 0);
+}
+#btsource-menu.navbar-default .navbar-nav>li>a:hover,
+#btsource-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(52, 152, 219, 1);
+    background-color: rgba(248, 248, 248, 0);
+}
+#btsource-menu.navbar-default .navbar-nav>.active>a,
+#btsource-menu.navbar-default .navbar-nav>.active>a:hover,
+#btsource-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(248, 248, 248, 1);
+    background-color: rgba(119, 119, 119, 0.97);
+}
+#btsource-menu.navbar-default .navbar-toggle {
+    border-color: #777777;
+}
+#btsource-menu.navbar-default .navbar-toggle:hover,
+#btsource-menu.navbar-default .navbar-toggle:focus {
+    background-color: #777777;
+}
+#btsource-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #777777;
+}
+#btsource-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#btsource-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #212121;
+}
+/*Connect Logos */
+.container-connect {
+    width: 60%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: auto;
+}
+.col-connect {
+    width: 33.3%;
+    float: left;
+    margin-top: 64px;
+}
+/* Small Hacks */
+.a-marg {
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -11,6 +11,12 @@
             <lightblue100>#3498DB</lightblue100>
             <lightblue25>#CCE5F6</lightblue25>
         </lightblue>
+        
+        <greys>
+            <lightestgrey>#FAFAFA</lightestgrey>
+            <secondgrey>#F5F5F5</secondgrey>
+            <thirdgrey>#333333</thirdgrey>
+        </greys>
     </maincolors>
 
     <maintextcolors>
