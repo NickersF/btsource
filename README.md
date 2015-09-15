@@ -9,8 +9,8 @@ more active. I do my best to keep a bi-monthly update schedule during school ses
 bugs and fixes.
 
 ## Current TODO:
-* Add media queries to improve responsivness
-* Edit style guide to match new CSS rules
+* Port old markup into the bootstrap grid
+* Improve CSS comments and organization
 * Add 'Work' section to showcase latest portfolio pieces
 * Consider using a webfont for header text selections
 
