@@ -8,11 +8,12 @@ body {
 .grey {
     background-color: lightgray;
 }
-.full-vh-test {
+.full-vh {
     height: 100vh;
     background-color: #2C3E50;
 }
-.vert-test {
+/* depricated */
+.center-vert {
     position: absolute;
     top: 50%;
     left:50%;
@@ -56,23 +57,54 @@ body {
 #btsource-menu.navbar-default .navbar-toggle:focus .icon-bar {
     background-color: #212121;
 }
-/*Connect Logos */
+/* Connect Logos */
 .container-connect {
     width: 60%;
     position: relative;
-    top: 50%;
+    top: 40%;
     transform: translateY(-50%);
     margin: auto;
 }
 .col-connect {
-    width: 33.3%;
+    width: 33.3333%;
     float: left;
 }
-/* Small Hacks */
-.a-marg {
+/* Padding/margin hacks */
+.r-pad {
+    padding-right: 16px;
+}
+.lr-marg {
     margin-left: auto;
     margin-right: auto;
 }
 .t-marg {
     margin-top: 64px;
+}
+.tb-marg {
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+/* Custom typographic rules */
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, Times, Times New Roman, serif;
+}
+/* Section headers */
+.hdr-blue-dark {
+}
+.hdr-blue-light {
+    background-color: #3498DB;
+    color: #CCE5F6;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+/* Additional font colors */
+.txt-light-blue {
+    color: #CCE5F6;
+}
+/* Anchor Fixed Hack */
+.anchor-fixed {
+    padding-top: 50px;
+    margin-top: -50px;
+    -webkit-background-clip: content-box;
+    background-clip: content-box;
 }
