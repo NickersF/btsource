@@ -2,26 +2,13 @@
 html {
     height: 100%;
 }
-body {
-    height: inherit;
-}
-.grey {
-    background-color: lightgray;
-}
 .full-vh {
     height: 100vh;
-    background-color: #2C3E50;
-}
-/* depricated */
-.center-vert {
-    position: absolute;
-    top: 50%;
-    left:50%;
-    transform: translate(-50%,-50%)
+    background-color: #1A237E;
 }
 /* Custom Navbar */
 #btsource-menu.navbar-default .navbar-brand {
-    color: rgba(119, 119, 119, 1);
+    color: rgba(204, 229, 246, 1);
 }
 #btsource-menu.navbar-default {
     font-size: 20px;
@@ -29,13 +16,13 @@ body {
     border-bottom-width: 0px;
 }
 #btsource-menu.navbar-default .navbar-nav>li>a {
-    color: rgba(119, 119, 119, 1);
-    background-color: rgba(248, 248, 248, 0);
+    color: rgba(204, 229, 246, 1);
+    background-color: rgba(248, 248, 248, );
 }
 #btsource-menu.navbar-default .navbar-nav>li>a:hover,
 #btsource-menu.navbar-default .navbar-nav>li>a:focus {
-    color: rgba(52, 152, 219, 1);
-    background-color: rgba(248, 248, 248, 0);
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(248, 248, 248, .025);
 }
 #btsource-menu.navbar-default .navbar-nav>.active>a,
 #btsource-menu.navbar-default .navbar-nav>.active>a:hover,
@@ -89,10 +76,8 @@ h1, h2, h3, h4, h5, h6 {
     font-family: Georgia, Times, Times New Roman, serif;
 }
 /* Section headers */
-.hdr-blue-dark {
-}
 .hdr-blue-light {
-    background-color: #3498DB;
+    background-color: #3F51B5;
     color: #CCE5F6;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -107,4 +92,29 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: -50px;
     -webkit-background-clip: content-box;
     background-clip: content-box;
+}
+/* Work section thumbnail panels */
+.thumbnail {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 0;
+    padding: 12px;
+}
+.btn-primary {
+    color: #CCE5F6;
+    background-color: #3F51B5;
+    border-radius: 0px;
+    border: 0;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #1A237E;
+}
+.footer {
+    color: #CCE5F6;
+    background-color: #1A237E;
+    padding: 45px;
+    margin-top: 80px;
+    font-size: 20px;
 }
