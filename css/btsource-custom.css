@@ -10,6 +10,10 @@ html {
 #btsource-menu.navbar-default .navbar-brand {
     color: rgba(204, 229, 246, 1);
 }
+.navbar-brand {
+    padding-bottom: 0;
+    padding-top: 8px;
+}
 #btsource-menu.navbar-default {
     font-size: 20px;
     background-color: rgba(33, 33, 33, 1);

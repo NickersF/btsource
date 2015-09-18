@@ -2,20 +2,27 @@
 
 ### http://www.btsource.net/
 
-Take a look around and check out the code. Currently on stable version 1.5.0. Check this page to
+Take a look around and check out the code. Currently on stable version 2.0.0 Check this page to
 see what changes and additions are taking place at [btsource.net] (http://www.btsource.net). The committ and upload
 schedule falls in line with my school schedule. During college breaks the repo and web site will be 
 more active. I do my best to keep a bi-monthly update schedule during school sessions and address major
 bugs and fixes.
 
 ## Current TODO:
-* Port old markup into the bootstrap grid
+* Inegrate graphic design work in an interesting creative way
 * Improve CSS comments and organization
-* Add 'Work' section to showcase latest portfolio pieces
 * Consider using a webfont for header text selections
+* Increase padding for content rows in desktop view.
+* Redesign styleguide
+
+## Version 2.0
+* Added full mobile support using the [bootstrap] (http://www.getbootstrap.com) grid
+* Revitalized the main color theme
+* Fixed scrolling overlap issue for fixed navigation
+* Fixed vertical margins and paddings to ensure more precise vertical symmetry
 
 ## Version 1.5.0
-* Fixed vertical alignment in the 'connect' section.
+* Fixed vertical alignment in the 'connect' section
 * Cleaned up CSS files
     * Removed unused rules
     * Improved comments for development version
