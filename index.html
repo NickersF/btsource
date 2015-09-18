@@ -1,70 +1,136 @@
 <!DOCTYPE html>
-<html>
-<head>
-<!-- SEO and metadata -->
-    <title>Portfolio of Nicholas Fazzolari - CS Student - Aspiring UI Designer. Home of Bridgetown Source</title>
-    <meta charset="UTF-8">
-    <meta name="description" content="Portfolio of Nicholas Fazzolari freelance web developer and computer science student. Home of Bridgetown Source. " />
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta name="description" content="Portfolio of Nicholas Fazzolari freelance web developer and computer science student. Home of Bridgetown Source. " />
     <link rel="icon" href="img/btFavicon.ico">
-<!-- css file links -->
-    <link rel="stylesheet" href="css/btsource.css">
-    <link rel="stylesheet" type="text/css" href="scripts/styles/monokai.css">
-<!-- inline code highlighting js-lib -->
-    <script src="scripts/highlight.pack.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
-</head> 
-<body>
-<!--    header  -->
-    <header class="header" id="top">
-        <img src="img/bt-main-logo-wht.png" alt="Bridgetown Source logo">
-        <div class="nav-wrapper">
-            <ul class="nav-main">
-                <li class="nav-item"><a href="#contact">Connect</a></li>
-                <li class="nav-item"><a href="#about">About</a></li>
-                <li class="nav-item"><a href="https://www.behance.net/NickFazzolari" target="_blank">Projects</a></li>
-                <li class="nav-item"><a href="https://nickersf.wordpress.com/" target="_blank">Blog</a></li>
-            </ul>
-        </div>
-    </header>
-<!--    contact section     -->
-    <section class="section-dark-full cf">
-        <a class="anchor-fixed" id="contact"></a>
-        <div class="container-connect">
-            <div class="section-header-dark text-center"><span class="section-heading">Connect With Me</span></div>
-            <div class="container-lg text-center">
-                <div class="col-connect"><a href="https://github.com/NickersF" target="_blank"><img id="outLink-git" class="img-sizing-center-connect" src="img/icons-socialmed/96SocialMedia_git_w.png" ></a></div>
-                <div class="col-connect"><a href="https://twitter.com/NickersFpdx" target="_blank"><img id="outLink-twi"class="img-sizing-center-connect" src="img/icons-socialmed/96SocialMedia_twit_w.png"></a></div>
-                <div class="col-connect"><a href="https://www.linkedin.com/in/nickfazzolari" target="_blank"><img id="outLink-lin"class="img-sizing-center-connect" src="img/icons-socialmed/96SocialMedia_in_w.png"></a></div>
-                <span class="section-heading hyp-dark">E-mail me: <a href="mailto:nickers@btsource.net">nickersf@btsource.net</a></span>
+        <title>Portfolio of Nicholas Fazzolari - CS Student - Aspiring UI Designer. Home of Bridgetown Source</title>
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!-- Custom Rules-->
+        <link href="css/btsource-custom.css" rel="stylesheet">
+    </head>
+    <body>
+<!-- customized bootstrap navigation -->
+        <div id="btsource-menu" class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header"><a class="navbar-brand" href="#connect">BTSOURCE</a>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse navbar-menubuilder">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#connect">Connect</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#work">Work</a></li>
+                        <li><a href="https://nickersf.wordpress.com/" target="_blank">Blog</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </section>
-<!--    about section -->
-
-    <section class="section-light cf">
-        <a class="anchor-fixed" id="about"></a>
-        <div class="section-header text-center"><span class="section-heading">About Me</span></div>
-        <div class="container-md">
-            <h3 class="text-center">A Short Bio</h3>
-            <p class="dark">I am Nick Fazzolari, Computer Science student, lover of music, mathematics and anything software related. Currently working to support myself in the world of freelance web development while attending school. I take my chances with graphic design from time to time. I'm often described as being overly passionate, and even obsessive. Fine by me - at least I have things which drive me.</p>
-            <h3 class="text-center">Programming</h3>
-            <img src="img/icons-about/about-icons-code.png" class="img-float-left" alt="btsource code">
-            <p class="dark">Programming is my main focus and passion. I love solving problems and creating in the digital realm. I'm self-taught in Python, JavaScript, and HTML, CSS/SASS. Formally I'm beginning coursework in C/C++. Throughout the years my interests in programming have shifted from the low level to the high level. One thing I am sure of is that I want to pursue graphics programming, and UI development.</p>
-            <h3 class="text-center">Mathematics</h3>
-            <img src="img/icons-about/about-icons-maths.png" class="img-float-left" alt="btsource math">
-            <p class="dark">I love studying mathematics on multiple levels. The world of mathematics is so vast that I can always find new and exciting topics to flirt with while entrenched in my coursework. I find deep joy in researching and learning about the history of mathematics. I'm interested in the people behind the mathematics, and their stories. As of late I've been obsessing over finding the link between the development of mathematics, and modern technology. It keeps me up at night.</p>
-            <h3 class="text-center">Graphic Design</h3>
-            <img src="img/icons-about/about-icons-design.png" class="img-float-left" alt="btsource design">
-            <p class="dark">During high school I developed skills in graphic design. Being a musician allowed me to put my graphic design skills to use when creating fliers, and merchandise designs for various bands. I feel that being able to visually connect, and convey complex ideas is a good skill which bridges the logical and analytical. This bridge can help expose more people to the wonders of science and technology.</p>
-            <img class="img-sizing-center" src="img/avNick.jpg" alt="Nicholas Fazzolari">
+<!-- connect section -->
+        <div class="container-fluid">
+            <div id="connect" class="full-vh row txt-light-blue">
+                <div class="container-connect text-center">
+                    <div class="row">
+                        <div class="center-block"><img class="lr-marg img-responsive" src="img/bt-main-logo-wht.png"></div>
+                    </div>
+                    <div class="t-marg col-connect"><a href="https://github.com/NickersF" target="_blank"><img id="outLink-git" class="lr-marg img-responsive" src="img/icons-socialmed/96SocialMedia_git_w.png"></a></div>
+                    <div class="t-marg col-connect"><a href="https://twitter.com/NickersFpdx" target="_blank"><img id="outLink-twi" class="lr-marg img-responsive" src="img/icons-socialmed/96SocialMedia_twit_w.png"></a></div>
+                    <div class="t-marg col-connect"><a href="https://www.linkedin.com/in/nickfazzolari" target="_blank"><img id="outLink-lin" class="lr-marg img-responsive" src="img/icons-socialmed/96SocialMedia_in_w.png"></a></div>
+                </div>
+            </div>
+<!-- about section -->
+            <div id="about" class="anchor-fixed row">
+                <div class="col-lg-12 text-center hdr-blue-light"><h1>About</h1></div>
+            </div>
+            <div class="t-marg row">
+                <div class="col-lg-12 text-center">
+                    <h2>A Short Bio</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
+                    <p>I am Nick Fazzolari, Computer Science student, lover of music, mathematics and anything software related. Currently working to support myself in the world of freelance web development while attending school. I take my chances with graphic design from time to time. I'm often described as being overly passionate, and even obsessive. Fine by me - at least I have things which drive me.</p>
+                </div>
+            </div>
+            <div class="t-marg row">
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <h3>Programming</h3>
+                    <img src="img/icons-about/about-icons-code.png" class="img-responsive pull-left r-pad">
+                    <p>Programming is my main focus and passion. I love solving problems and creating in the digital realm. I'm self-taught in Python, JavaScript, and HTML, CSS/SASS. Formally I'm beginning coursework in C/C++. Throughout the years my interests in programming have shifted from the low level to the high level. One thing I am sure of is that I want to pursue graphics programming, and UI development.</p>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <h3>Mathematics</h3>
+                    <img src="img/icons-about/about-icons-maths.png" class="img-responsive pull-left r-pad">
+                    <p>I love studying mathematics on multiple levels. The world of mathematics is so vast that I can always find new and exciting topics to flirt with while entrenched in my coursework. I find deep joy in researching and learning about the history of mathematics. I'm interested in the people behind the mathematics, and their stories. As of late I've been obsessing over finding the link between the development of mathematics, and modern technology. It keeps me up at night.</p>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <h3>Graphic Design</h3>
+                    <img src="img/icons-about/about-icons-design.png" class="img-responsive pull-left r-pad">
+                    <p>During high school I developed skills in graphic design. Being a musician allowed me to put my graphic design skills to use when creating fliers, and merchandise designs for various bands. I feel that being able to visually connect, and convey complex ideas is a good skill which bridges the logical and analytical. This bridge can help expose more people to the wonders of science and technology.</p>
+                </div>
+            </div>
+            <div class="tb-marg row">
+                <div class="col-xs-4 col-xs-offset-4 col-sm-4 col-sm-offset-4 col-md-4 col-md-offset-4 col-lg-4 col-lg-offset-4">
+                    <img src="img/avNick.jpg" class="img-responsive">
+                </div>
+            </div>
+<!-- work section -->
+            <div id="work" class="anchor-fixed row">
+                <div class="col-lg-12 text-center hdr-blue-light"><h1>Work</h1></div>
+            </div>
+            <div class="t-marg row">
+                <div class="col-lg-12 text-center">
+                    <h2>Freelance Work</h2>
+                </div>
+            </div>
+            <div class="t-marg row">
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <div class="thumbnail">
+                        <img src="img/work/star-bar.png">
+                        <div class="caption">
+                            <h3>Star Bar Portland</h3>
+                            <p>Mobile first redesign of the Portland, Oregon rock and punk bar in inner southeast. The page features a live feed of events, as well as full fledged menu.</p><br>
+                            <p><a href="http://www.star-bar-rocks.com" target="_blank" class="btn btn-primary" role="button"><strong>Visit Site</strong></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <div class="thumbnail">
+                        <img src="img/work/fidel-unlim.PNG">
+                        <div class="caption">
+                            <h3>Fidelity Unlimited Recording</h3>
+                            <p>A full mobile friendly redesign, and branding for the Portland, Oregon recording studio 'Fidelity Unlimited'. </p><br>
+                            <p><a href="http://www.fidelityunlimited.com" target="_blank" class="btn btn-primary" role="button"><strong>Visit Site</strong></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <div class="thumbnail">
+                        <img src="http://placehold.it/800x410">
+                        <div class="caption">
+                            <h3>Your New Web Site</h3>
+                            <p>Feel free to contact me if you're interested, or in need of a mobile friendly modern redesign of your current web site. Or if you need a new solutio developed from the ground up. </p>
+                            <p><a href="mailto:nickers@btsource.net" class="btn btn-primary" role="button"><strong>Contact Me</strong></a></p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+<!-- footer -->
+            <div class="row"></div>
         </div>
-    </section>
-<!--    page footer start   -->
-    <footer class="section-dark cf">
-    	<div class="footer-container text-center">
-        	<span class="footer-heading"><span class="hyp-medium"><a href="styleguide.html" title="Bridgetown Source Style Guide">Style Guide</a>   </span> | &copy; Bridgetown Source 2014-2015</span>
-        </div>
-    </footer>
-    <script type="text/javascript" src="js/connect-links.js"></script>
-</body>
+<!-- site footer -->
+        <footer class="footer">
+            <p class="text-center"><strong>BRIDGE TOWN SOURCE &copy; 2015</strong></p>
+        </footer>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+    </body>
 </html>
