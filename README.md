@@ -11,7 +11,6 @@ bugs and fixes.
 ## Current TODO:
 * Inegrate graphic design work in an interesting creative way
 * Improve CSS comments and organization
-* Consider using a webfont for header text selections
 * Increase padding for content rows in desktop view.
 * Redesign styleguide
 
