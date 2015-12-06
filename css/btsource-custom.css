@@ -60,7 +60,7 @@ html {
     width: 33.3333%;
     float: left;
 }
-/* Padding/margin hacks */
+/* Padding and margin hacks */
 .r-pad {
     padding-right: 16px;
 }
@@ -74,6 +74,10 @@ html {
 .tb-marg {
     margin-top: 64px;
     margin-bottom: 64px;
+}
+.tb-pad-sm {
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 /* Custom typographic rules */
 h1, h2, h3, h4, h5, h6 {
@@ -109,8 +113,9 @@ h1, h2, h3, h4, h5, h6 {
 .btn-primary {
     color: #CCE5F6;
     background-color: #3F51B5;
-    border-radius: 0px;
+    border-radius: 2px;
     border: 0;
+    width: 90%;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
     background: #1A237E;
