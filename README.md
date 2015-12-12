@@ -9,7 +9,8 @@ more active. I do my best to keep a bi-monthly update schedule during school ses
 bugs and fixes.
 
 ## Current TODO:
-* Inegrate graphic design work in an interesting creative way
+* Implement 'think tank' micro blog
+* Implement 'dev sandbox' coding examples
 * Improve CSS comments and organization
 * Increase padding for content rows in desktop view.
 * Redesign styleguide
